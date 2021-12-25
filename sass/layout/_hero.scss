@@ -1,0 +1,100 @@
+.section-hero {
+  position: relative;
+
+  max-width: 1600px;
+  height: 400px;
+  margin-bottom: 60px;
+
+  color: $white-color;
+  text-align: center;
+
+  background-position: center;
+  background-size: cover;
+
+  @media screen and (max-width: 576px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(../img/hero/mobileBGhero.jpg);
+  }
+
+  @media not all,
+    screen and (min-resolution: 192dpi) and (max-width: 577px),
+    screen and (min-resolution: 2dppx) and (max-width: 577px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(../img/hero/hero-bg-mobile@2x.jpg);
+  }
+
+  & .centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  & .titel {
+    width: 360px;
+
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 578px) and (max-width: 1169px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(/img/hero/tablBGhero.jpg);
+  }
+
+  @media not all,
+    screen and (min-resolution: 192dpi) and (min-width: 578px),
+    screen and (min-resolution: 2dppx) and (min-width: 578px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(../img/hero/hero-bg-tablet@2x.jpg);
+  }
+
+  @media screen and (min-width: 1170px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(../img/hero/bgHero.jpg);
+  }
+
+  @media not all,
+    screen and (min-resolution: 192dpi) and (min-width: 1170px),
+    screen and (min-resolution: 2dppx) and (min-width: 1170px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(../img/hero/hero-bg@2x.jpg);
+  }
+}
+
+.button.hero {
+  min-width: 200px;
+  display: inline-block;
+  padding: 10px 32px;
+  font-weight: bold;
+
+  color: $white-color;
+  background-color: $accent-color;
+
+  letter-spacing: 0.06em;
+  line-height: 1.87;
+}
