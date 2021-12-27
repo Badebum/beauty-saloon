@@ -1,0 +1,65 @@
+.hero {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  .hero_titel {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 139%;
+  }
+
+  & .list_items {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  & .item {
+    list-style: none;
+    width: 97px;
+    margin-right: 49px;
+    margin-bottom: 20px;
+
+    &:nth-child(2n) {
+      margin-right: 0px;
+    }
+  }
+
+  & .text {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+
+    display: inline-block;
+    margin: 0;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 17%;
+      width: 20px;
+      border-bottom: 1px solid #fff;
+      right: 100%;
+      margin-right: 9px;
+    }
+  }
+
+  & .hero_btn {
+    margin-bottom: 15px;
+  }
+}
+
+.hero_img {
+  display: block;
+  border-radius: 80px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}

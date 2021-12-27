@@ -1,0 +1,27 @@
+.nav {
+  background-color: #282930;
+  height: 67px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+
+  & .nav_button {
+    border-radius: 50% 50%;
+    background-color: #f4ad7b;
+
+    border: none;
+    width: 35px;
+    height: 35px;
+  }
+
+  & .logo {
+    width: 74px;
+    height: 37px;
+  }
+}
+
+.navigation_menu {
+  display: none;
+}

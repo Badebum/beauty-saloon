@@ -1,101 +1,295 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beauty salon</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> WebStudio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.min.css">
+  <body>
+    <header class="page-header">
+      <nav class="nav container">
+        <a href="" class="logo">
+          <img src="./img/icon/logo.svg" alt="" />
+        </a>
+        <button type="button" class="nav_button">
+          <img src="./img/icon/menu.svg" alt="" />
+        </button>
 
-</head>
-
-<body>
-    <header class="page-header" >
-     </header>
-
+        <div class="navigation_menu main_nav"></div>
+      </nav>
+    </header>
 
     <main>
-        <!-- HERO -->
- 
+      <!-- HERO -->
+      <div class="container">
+        <div class="hero">
+          <h1 class="hero_titel">
+            Салон красоты <br />
+            Ноеми в Пушкино
+          </h1>
+          <ul class="list_items">
+            <li class="item">
+              <span class="text">Больше 1000 клиентов в месяц</span>
+            </li>
+            <li class="item">
+              <span class="text">Работаем до последнего клиента</span>
+            </li>
+          </ul>
+          <button type="button" class="hero_btn btn">
+            Записаться в пушкино
+          </button>
+        </div>
+
+        <div class="hero">
+          <h1 class="hero_titel">Салон красоты <br />Ноеми в Москве</h1>
+          <ul class="list_items">
+            <li class="item">
+              <span class="text">Варим вкуснейший кофе</span>
+            </li>
+            <li class="item">
+              <span class="text">Приходи и убедись сама</span>
+            </li>
+          </ul>
+          <button type="button" class="hero_btn btn">
+            Записаться в Москве
+          </button>
+        </div>
+        <img src="./img/hero/woman.jpg" alt="женщина" class="hero_img" />
+      </div>
+
+      <!-- SERVICES AND PRICES -->
+      <div class="services_price">
+        <div class="container">
+          <h2>Услуги и цены</h2>
+          <ul>
+            <li>
+              <h3>Стрижки и укладки</h3>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+            <li>
+              <h3>Окрашивание</h3>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+            <li>
+              <h3>Уход и лечение волос</h3>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+            <li>
+              <h3>Косметология</h3>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+            <li>
+              <h3>Депиляция</h3>
+              <p>Воск / Шугаринг</p>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+            <li>
+              <h3>Ногтевой сервис</h3>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+            <li>
+              <h3>Педикюрный сервис</h3>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+            <li>
+              <h3>Магазин</h3>
+              <img src="" alt="" />
+              <button class="btn">записатся</button>
+            </li>
+          </ul>
+          <button class="btn">Смотреть все услуги и цены</button>
+        </div>
+      </div>
+
+      <!-- products -->
+      <div class="products container">
+        <img src="" alt="" />
+        <h4>PROMAKEUP laboratory Мицеллярная вода "CLEAN SKIN"</h4>
+        <p>970p 370p</p>
+        <button class="btn">ЗАКАЗАТЬ</button>
+        <button>left</button>
+        <button>right</button>
+      </div>
+
+      <!-- gallery -->
+
+      <div class="gallery container">
+        <img src="" alt="" class="gallery" />
+        <button>left</button>
+        <button>right</button>
+      </div>
+
+      <!-- Sing UP -->
+      <div class="sing_up container">
+        <div class="hero">
+          <h3 class="hero-titel">Салон красоты Ноеми в Пушкино</h3>
+          <p class="text">Больше 1000 клиентов в месяц</p>
+          <p class="text">Работаем до последнего клиента</p>
+          <button type="button" class="hero_btn btn">
+            Записаться в пушкино
+          </button>
+        </div>
+        <div class="hero">
+          <h3 class="hero-titel">Салон красоты Ноеми в Москве</h3>
+          <p class="text">Варим вкуснейший кофе</p>
+          <p class="text">Приходи и убедись сама</p>
+          <button type="button" class="hero_btn btn">
+            Записаться в Москве
+          </button>
+        </div>
+      </div>
+
+      <!-- REVIEWS -->
+      <div class="reviews container">
+        <div class="rev_card">
+          <p>Замечательный маникюр</p>
+          <p>
+            “Устроили другу “секретный праздник”. Остались довольны все и
+            именинник и гости. Спасибо Харизме!”
+          </p>
+          <ul>
+            <li>
+              <p>Качество</p>
+              <p>5 из 10</p>
+            </li>
+            <li>
+              <p>Обслуживание</p>
+              <p>8 из 10</p>
+            </li>
+            <li>
+              <p>Атмосфера</p>
+              <p>8 из 10</p>
+            </li>
+          </ul>
+          <div class="people_card">
+            <img src="" alt="" />
+            <p>Валерия</p>
+            <p>27 лет</p>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <Footer class="section-footer">
-          </Footer>
-    
-
-<!-- MODAL -->
-
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="close-btn" data-modal-close>
-                <svg class="icon-close-btn" >
-                    <use href="./img/icon/symbol-defs.svg#close">
-                    </use>
-                </svg> 
-            </button>
-
-    <h3 class="modal-titel">Оставьте свои данные, мы вам перезвоним</h3>
-     <form class="form">
-
-     <div class="form-field">
-                
-      <input type="text" class="form-input" name="user-name" id="user-name" placeholder=" ">
-                
-     <label for="user-name" class="form-label">Имя</label>
-         <svg class="icon-input">
-            <use href="./img/icon/symbol-defs.svg#person">
-             </use>
-        </svg>
-     </div>
-    
-     <div class="form-field">
-       <input type="tel" class="form-input" name="tel" id="tel" placeholder=" ">
-         <label for="tel" class="form-label">Телефон</label>
-         <svg class="icon-input">
-             <use href="./img/icon/symbol-defs.svg#phone">
-             </use>
-        </svg>
-     </div>
-    
-     <div class="form-field">
-                
-     <input type="email" class="form-input" name="email" id="email" placeholder=" ">
-     <label for="email" class="form-label">Почта</label>
-         <svg class="icon-input">
-             <use href="./img/icon/symbol-defs.svg#email">
-             </use>
-         </svg>
-     </div>
-             
-    <div class="form-field">
-       
-     <textarea name="text-area" id="" rows="10" placeholder=" " class="text-area"></textarea>
-     <label for="text-area" class="text-area-label">Коментарий</label>
-     </div>
-        
-     <div>
-         
-         <label class="checkbox-label">
-            <input class="checkbox" type="checkbox" name="policy" value="policity">
-            <span class="icon-checkbox"></span>
-            Соглашаюсь с рассылкой и принимаю <a class="" href="">Условия договора</a>
-            
-        </label>
-     </div>
-    
-
-       
-     </form>
-            <button type="submit" class="submit-btn"> Отправить </button>
+    <footer class="section-footer">
+      <div class="container footer">
+        <a href="" class="logo"></a>
+        <p>Двери нашей студии красоты открыты для Вас</p>
+        <a href="">г. Пушкино Московский проспект, д. 27 </a>
+        <a href=""> г. Москва Черноморский бульвар, д .10, корп. 1</a>
+        <a href="tel:+74994900413"> Контакты +7 (499) 490-04-13</a>
+        <div class="icon">
+          <ul>
+            <li>instagram</li>
+            <li>wathcapp</li>
+            <li>telegram</li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+
+    <!-- <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-btn" data-modal-close>
+          <svg class="icon-close-btn">
+            <use href="./img/icon/symbol-defs.svg#close"></use>
+          </svg>
+        </button>
+
+        <h3 class="modal-titel">Оставьте свои данные, мы вам перезвоним</h3>
+        <form class="form">
+          <div class="form-field">
+            <input
+              type="text"
+              class="form-input"
+              name="user-name"
+              id="user-name"
+              placeholder=" "
+            />
+
+            <label for="user-name" class="form-label">Имя</label>
+            <svg class="icon-input">
+              <use href="./img/icon/symbol-defs.svg#person"></use>
+            </svg>
+          </div>
+
+          <div class="form-field">
+            <input
+              type="tel"
+              class="form-input"
+              name="tel"
+              id="tel"
+              placeholder=" "
+            />
+            <label for="tel" class="form-label">Телефон</label>
+            <svg class="icon-input">
+              <use href="./img/icon/symbol-defs.svg#phone"></use>
+            </svg>
+          </div>
+
+          <div class="form-field">
+            <input
+              type="email"
+              class="form-input"
+              name="email"
+              id="email"
+              placeholder=" "
+            />
+            <label for="email" class="form-label">Почта</label>
+            <svg class="icon-input">
+              <use href="./img/icon/symbol-defs.svg#email"></use>
+            </svg>
+          </div>
+
+          <div class="form-field">
+            <textarea
+              name="text-area"
+              id=""
+              rows="10"
+              placeholder=" "
+              class="text-area"
+            ></textarea>
+            <label for="text-area" class="text-area-label">Коментарий</label>
+          </div>
+
+          <div>
+            <label class="checkbox-label">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="policy"
+                value="policity"
+              />
+              <span class="icon-checkbox"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="" href="">Условия договора</a>
+            </label>
+          </div>
+        </form>
+        <button type="submit" class="submit-btn">Отправить</button>
+      </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
     <script src="js/menu.js"></script>
-</body>
-
+  </body>
 </html>

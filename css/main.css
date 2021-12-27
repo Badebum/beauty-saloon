@@ -1,0 +1,140 @@
+body {
+  background-color: #282930;
+  color: white;
+  font-family: 'Jost', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.btn {
+  width: 290px;
+  height: 55px;
+  padding: 20px 20px;
+  background-color: #f4ad7b;
+  border: none;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #282930;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.nav {
+  background-color: #282930;
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.nav .nav_button {
+  border-radius: 50% 50%;
+  background-color: #f4ad7b;
+  border: none;
+  width: 35px;
+  height: 35px;
+}
+
+.nav .logo {
+  width: 74px;
+  height: 37px;
+}
+
+.navigation_menu {
+  display: none;
+}
+
+.hero {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .hero_titel {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 139%;
+}
+
+.hero .list_items {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hero .item {
+  list-style: none;
+  width: 97px;
+  margin-right: 49px;
+  margin-bottom: 20px;
+}
+
+.hero .item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.hero .text {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+
+.hero .text:before {
+  content: '';
+  position: absolute;
+  top: 17%;
+  width: 20px;
+  border-bottom: 1px solid #fff;
+  right: 100%;
+  margin-right: 9px;
+}
+
+.hero .hero_btn {
+  margin-bottom: 15px;
+}
+
+.hero_img {
+  display: block;
+  border-radius: 80px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=main.css.map */

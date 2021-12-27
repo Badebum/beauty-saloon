@@ -1,14 +1,12 @@
 // @import './utils/variables';
 // @import './utils/visualy-hidden';
 
-// @import './base/common';
-// @import './base/container';
+@import './base/common';
+@import './base/container';
 
-// @import './components/logo';
 // @import './components/modal';
-// @import './components/button';
-// @import './components/navigation';
-// @import './components/soc-icon';
+@import './components/button';
+@import './components/navigation';
 
-// @import './layout/hero';
-// @import './layout/footer';
+@import './layout/hero';
+@import './layout/footer';
