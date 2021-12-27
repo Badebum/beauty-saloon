@@ -1,3 +1,77 @@
 .services_price {
   background-color: #222328;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  & .price_titel {
+    margin: 0;
+
+    margin-bottom: 17px;
+    text-align: center;
+  }
+
+  & .price_btn {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.services_card_list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+
+  & .item_list {
+    list-style: none;
+  }
+
+  & .card_link {
+    color: white;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #33343a;
+
+    width: 290px;
+    height: 400px;
+    margin-bottom: 20px;
+
+    & .text_h3 {
+      font-size: x-small;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: #1d1d22;
+    }
+  }
+
+  // & .item_card {
+  //   width: 290px;
+  //   height: 400px;
+  // }
+
+  & .card_img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+
+  & .card_title {
+    margin: 0;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+  }
+
+  & .card_btn {
+    position: absolute;
+    bottom: 0;
+  }
 }
