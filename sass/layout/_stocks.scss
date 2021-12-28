@@ -11,6 +11,12 @@
     font-weight: normal;
     font-size: 28px;
     line-height: 40px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 60px;
+      line-height: 70px;
+      text-align: left;
+    }
   }
 
   & .slayd {
@@ -26,6 +32,12 @@
       cursor: pointer;
     }
   }
+
+  .slayd {
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
 }
 
 .stocks_card {
@@ -38,8 +50,27 @@
   margin-bottom: 30px;
 
   background-color: #fff;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 100%;
+    height: 334px;
+  }
+
   & .stocks_img {
     margin-bottom: 20px;
+    width: 287px;
+    height: 160px;
+
+    @media screen and (min-width: 768px) {
+      width: 597px;
+      height: 334px;
+    }
+  }
+
+  & .stocks_offer {
+    padding: 60px 60px 60px 100px;
+    text-align: left;
   }
 
   & .title_stocks {
@@ -51,6 +82,14 @@
     line-height: 29px;
     padding: 0 15px 0 15px;
     color: #282930;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+
+      font-style: normal;
+      font-size: 32.3909px;
+      line-height: 47px;
+    }
   }
 
   & .stocks_price {
@@ -59,6 +98,13 @@
     line-height: 20px;
     padding: 0 15px 0 15px;
     color: #282930;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+
+      font-size: 16px;
+      line-height: 23px;
+    }
   }
 
   & .stocks_btn {
@@ -67,5 +113,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+      width: 299px;
+      height: 74px;
+      margin: 0;
+    }
   }
 }
