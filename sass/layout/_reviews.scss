@@ -1,0 +1,91 @@
+.reviews_section {
+  & .rev_title {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 139%;
+  }
+
+  & .feedback_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  & .rating_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+    & .list_item {
+      list-style: none;
+    }
+  }
+
+  & .people_card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & .text_name {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 30px;
+      margin: 0;
+    }
+
+    & .text_age {
+      font-size: 11px;
+      line-height: 19px;
+      margin: 0;
+    }
+  }
+}
+
+.rev_card {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 25px 20px 25px 20px;
+  margin: 30px;
+
+  & .head_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #5f5f5f;
+
+    margin-bottom: 15px;
+  }
+
+  & .rev_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+
+    margin-bottom: 15px;
+  }
+
+  & .kind_text {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 19px;
+    color: #5f5f5f;
+
+    margin: 0;
+  }
+
+  & .kind_rating {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 27px;
+
+    margin: 0;
+  }
+}

@@ -26,7 +26,65 @@
           <img src="./img/icon/menu.svg" alt="" />
         </button>
 
-        <div class="navigation_menu main_nav"></div>
+        <div class="navigation_menu main_nav">
+          <ul class="site_nav">
+            <li class="item_site_nav">Услуги и цены</li>
+            <li class="item_site_nav">Галерея</li>
+            <li class="item_site_nav">3D тур</li>
+            <li class="item_site_nav">Продукция</li>
+            <li class="item_site_nav">Отзывы</li>
+            <li class="item_site_nav">Статьи</li>
+            <li class="item_site_nav">Контакты</li>
+          </ul>
+          <ul class="auth_nav">
+            <li class="item_auth_nav">
+              <a href="" class="icon_link_bascket">
+                <img
+                  src="./img/icon/bascket.svg"
+                  alt="инстаграмм"
+                  class="icon_img"
+                />
+              </a>
+            </li>
+            <li class="item_auth_nav">
+              <a href="tel:+74994900413" class="foot_tel">
+                <span class="first_text">Контакты</span>
+                <span class="second_text">+7 (499) 490-04-13</span>
+              </a>
+            </li>
+            <li class="item_auth_nav icon">
+              <ul class="icon_list">
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Instagram.svg"
+                      alt="инстаграмм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/WhatsApp.svg"
+                      alt="вотцап"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Telega.svg"
+                      alt="телеграм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -58,20 +116,26 @@
               <span class="text">Варим вкуснейший кофе</span>
             </li>
             <li class="item">
-              <span class="text">Приходи и убедись сама</span>
+              <span class="text"
+                >Приходи и <br />
+                убедись сама</span
+              >
             </li>
           </ul>
           <button type="button" class="hero_btn btn">
             Записаться в Москве
           </button>
         </div>
-        <img src="./img/hero/woman.jpg" alt="женщина" class="hero_img" />
+        <div class="hero_img_cont">
+          <img src="./img/hero/woman.jpg" alt="женщина" class="hero_img" />
+        </div>
       </div>
 
       <!-- SERVICES AND PRICES -->
       <div class="services_price">
         <div class="container">
           <h2 class="price_titel">Услуги и цены</h2>
+
           <ul class="services_card_list">
             <li class="item_list">
               <a href="" class="card_link">
@@ -82,7 +146,7 @@
                     alt=""
                     class="card_img"
                   />
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -96,7 +160,7 @@
                     alt=""
                     class="card_img"
                   />
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -110,7 +174,7 @@
                     alt=""
                     class="card_img"
                   />
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -120,7 +184,7 @@
                 <div class="item_card">
                   <h3 class="card_title">Косметология</h3>
                   <img src="./img/services/kisti.svg" alt="" class="card_img" />
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -135,7 +199,7 @@
                 <div class="item_card">
                   <img src="./img/services/nogi.svg" alt="" class="card_img" />
 
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -149,7 +213,7 @@
                     alt=""
                     class="card_img"
                   />
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -159,7 +223,7 @@
                 <div class="item_card">
                   <h3 class="card_title">Педикюрный сервис</h3>
                   <img src="./img/services/stopa.svg" alt="" class="card_img" />
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -169,7 +233,7 @@
                 <div class="item_card">
                   <h3 class="card_title">Магазин</h3>
                   <img src="./img/services/tovar.svg" alt="" class="card_img" />
-                  <button class="card_btn btn">записаться</button>
+                  <button type="button" class="card_btn btn">записаться</button>
                 </div>
               </a>
             </li>
@@ -179,86 +243,254 @@
       </div>
 
       <!-- products -->
-      <div class="products container">
-        <img src="" alt="" />
-        <h4>PROMAKEUP laboratory Мицеллярная вода "CLEAN SKIN"</h4>
-        <p>970p 370p</p>
-        <button class="btn">ЗАКАЗАТЬ</button>
-        <button>left</button>
-        <button>right</button>
+      <div class="section_product container">
+        <h3 class="card_title">Популярные товары</h3>
+        <ul class="product_list">
+          <li class="product_item">
+            <div class="product_card">
+              <img
+                src="./img/product/product1.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                PROMAKEUP laboratory Мицеллярная вода "CLEAN SKIN"
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+
+              <div class="slayd">
+                <button type="button" class="slayd_btn"><--------</button>
+                <button type="button" class="slayd_btn">--------></button>
+              </div>
+            </div>
+          </li>
+          <li class="product_item">
+            <div class="product_card">
+              <img
+                src="./img/product/product1.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                PROMAKEUP laboratory Мицеллярная вода "CLEAN SKIN"
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+
+              <div class="slayd">
+                <button type="button" class="slayd_btn"><--------</button>
+                <button type="button" class="slayd_btn">--------></button>
+              </div>
+            </div>
+          </li>
+          <li class="product_item">
+            <div class="product_card">
+              <img
+                src="./img/product/product1.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                PROMAKEUP laboratory Мицеллярная вода "CLEAN SKIN"
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+
+              <div class="slayd">
+                <button type="button" class="slayd_btn"><--------</button>
+                <button type="button" class="slayd_btn">--------></button>
+              </div>
+            </div>
+          </li>
+          <li class="product_item">
+            <div class="product_card">
+              <img
+                src="./img/product/product1.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                PROMAKEUP laboratory Мицеллярная вода "CLEAN SKIN"
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+
+              <div class="slayd">
+                <button type="button" class="slayd_btn"><--------</button>
+                <button type="button" class="slayd_btn">--------></button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- STOCKS -->
+      <div class="section_stocks container">
+        <h3 class="card_title">Акции</h3>
+        <div class="stocks_card">
+          <img
+            src="./img/stocks/legs.jpg"
+            alt="женские ноги"
+            class="stocks_img"
+          />
+          <h5 class="title_stocks">Депиляция за пол цены</h5>
+          <p class="stocks_price">
+            Компания AKZENTZ представляет современную линию для маникюра и
+            педикюра — LUXIO.
+          </p>
+          <button type="button" class="stocks_btn btn">ЗАКАЗАТЬ</button>
+        </div>
+        <div class="slayd">
+          <button type="button" class="slayd_btn"><--------</button>
+          <button type="button" class="slayd_btn">--------></button>
+        </div>
       </div>
 
       <!-- gallery -->
 
-      <div class="gallery container">
-        <img src="" alt="" class="gallery" />
-        <button>left</button>
-        <button>right</button>
+      <div class="section_gallery container">
+        <h5 class="gallery_titel">Наши работы</h5>
+        <img src="./img/gallery/gallery_1.jpg" alt="" class="gallery_img" />
+
+        <div class="slayd">
+          <button type="button" class="slayd_btn"><--------</button>
+          <button type="button" class="slayd_btn">--------></button>
+        </div>
       </div>
 
       <!-- Sing UP -->
-      <div class="sing_up container">
-        <div class="hero">
-          <h3 class="hero-titel">Салон красоты Ноеми в Пушкино</h3>
-          <p class="text">Больше 1000 клиентов в месяц</p>
-          <p class="text">Работаем до последнего клиента</p>
-          <button type="button" class="hero_btn btn">
+      <div class="sing_up_section container">
+        <div class="sing_up_content">
+          <h1 class="sing_up_title">
+            Салон красоты <br />
+            Ноеми в Пушкино
+          </h1>
+          <ul class="list_items">
+            <li class="item">
+              <span class="text">Больше 1000 клиентов в месяц</span>
+            </li>
+            <li class="item">
+              <span class="text">Работаем до последнего клиента</span>
+            </li>
+          </ul>
+          <button type="button" class="sing_up_btn btn">
             Записаться в пушкино
           </button>
         </div>
-        <div class="hero">
-          <h3 class="hero-titel">Салон красоты Ноеми в Москве</h3>
-          <p class="text">Варим вкуснейший кофе</p>
-          <p class="text">Приходи и убедись сама</p>
-          <button type="button" class="hero_btn btn">
+
+        <div class="sing_up_content">
+          <h1 class="sing_up_title">Салон красоты <br />Ноеми в Москве</h1>
+          <ul class="list_items">
+            <li class="item">
+              <span class="text">Варим вкуснейший кофе</span>
+            </li>
+            <li class="item">
+              <span class="text">Приходи и убедись сама</span>
+            </li>
+          </ul>
+          <button type="button" class="sing_up_btn btn">
             Записаться в Москве
           </button>
         </div>
       </div>
 
       <!-- REVIEWS -->
-      <div class="reviews container">
+      <div class="reviews_section container">
+        <h5 class="rev_title">Отзывы клиентов</h5>
         <div class="rev_card">
-          <p>Замечательный маникюр</p>
-          <p>
+          <p class="head_title">Замечательный маникюр</p>
+          <p class="rev_text">
             “Устроили другу “секретный праздник”. Остались довольны все и
             именинник и гости. Спасибо Харизме!”
           </p>
-          <ul>
-            <li>
-              <p>Качество</p>
-              <p>5 из 10</p>
+          <ul class="rating_list">
+            <li class="list_item">
+              <p class="kind_text">Качество</p>
+              <p class="kind_rating">5 из 10</p>
             </li>
-            <li>
-              <p>Обслуживание</p>
-              <p>8 из 10</p>
+            <li class="list_item">
+              <p class="kind_text">Обслуживание</p>
+              <p class="kind_rating">8 из 10</p>
             </li>
-            <li>
-              <p>Атмосфера</p>
-              <p>8 из 10</p>
+            <li class="list_item">
+              <p class="kind_text">Атмосфера</p>
+              <p class="kind_rating">8 из 10</p>
             </li>
           </ul>
           <div class="people_card">
-            <img src="" alt="" />
-            <p>Валерия</p>
-            <p>27 лет</p>
+            <img
+              src="./img/feedback/feedback_1.jpg"
+              alt=""
+              class="feedback_img"
+            />
+            <div>
+              <p class="text_name">Валерия</p>
+              <p class="text_age">27 лет</p>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
     <footer class="section-footer">
-      <div class="container footer">
-        <a href="" class="logo"></a>
-        <p>Двери нашей студии красоты открыты для Вас</p>
-        <a href="">г. Пушкино Московский проспект, д. 27 </a>
-        <a href=""> г. Москва Черноморский бульвар, д .10, корп. 1</a>
-        <a href="tel:+74994900413"> Контакты +7 (499) 490-04-13</a>
+      <div class="footer container">
+        <div class="logo_title">
+          <a href="" class="logo">
+            <img src="./img/icon/logo.svg" alt="" class="logo_img" />
+          </a>
+          <p class="text">Двери нашей студии красоты открыты для Вас</p>
+        </div>
+        <a href="" class="foot_address">
+          <span class="first_text">г. Пушкино</span>
+          <span class="second_text">Московский проспект, д. 27</span>
+        </a>
+        <a href="" class="foot_address">
+          <span class="first_text">г. Москва</span>
+          <span class="second_text">Черноморский бульвар, д .10, корп. 1</span>
+        </a>
+        <a href="tel:+74994900413" class="foot_tel">
+          <span class="first_text">Контакты</span>
+          <span class="second_text">+7 (499) 490-04-13</span>
+        </a>
+
         <div class="icon">
-          <ul>
-            <li>instagram</li>
-            <li>wathcapp</li>
-            <li>telegram</li>
+          <ul class="icon_list">
+            <li class="icon_item">
+              <a href="" class="icon_link">
+                <img
+                  src="./img/icon/Instagram.svg"
+                  alt="инстаграмм"
+                  class="icon_img"
+                />
+              </a>
+            </li>
+            <li class="icon_item">
+              <a href="" class="icon_link">
+                <img
+                  src="./img/icon/WhatsApp.svg"
+                  alt="вотцап"
+                  class="icon_img"
+                />
+              </a>
+            </li>
+            <li class="icon_item">
+              <a href="" class="icon_link">
+                <img
+                  src="./img/icon/Telega.svg"
+                  alt="телеграм"
+                  class="icon_img"
+                />
+              </a>
+            </li>
           </ul>
         </div>
       </div>

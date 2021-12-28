@@ -1,0 +1,71 @@
+.section_stocks {
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  & .card_title {
+    margin: 0;
+    margin-bottom: 17px;
+    text-align: center;
+
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  & .slayd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    & .slayd_btn {
+      color: #f4ad7b;
+      border: none;
+      background-color: initial;
+      cursor: pointer;
+    }
+  }
+}
+
+.stocks_card {
+  width: 290px;
+  height: 400px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  background-color: #fff;
+  & .stocks_img {
+    margin-bottom: 20px;
+  }
+
+  & .title_stocks {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 24.39px;
+    line-height: 29px;
+    padding: 0 15px 0 15px;
+    color: #282930;
+  }
+
+  & .stocks_price {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 15px 0 15px;
+    color: #282930;
+  }
+
+  & .stocks_btn {
+    width: 260px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

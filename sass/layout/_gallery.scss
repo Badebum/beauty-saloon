@@ -1,0 +1,35 @@
+.section_gallery {
+  padding-bottom: 30px;
+
+  & .gallery_titel {
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  & .gallery_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  & .slayd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    & .slayd_btn {
+      color: #f4ad7b;
+      border: none;
+      background-color: initial;
+      cursor: pointer;
+    }
+  }
+}

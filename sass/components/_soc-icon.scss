@@ -1,0 +1,40 @@
+.icon {
+  & .icon_list {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+
+  & .icon_item {
+    list-style: none;
+
+    & .icon_link {
+      background-color: #fff;
+      border-radius: 50% 50%;
+      display: block;
+      width: 35px;
+      height: 35px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    & .icon_img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  & .icon_item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  & .icon_link {
+    &:hover,
+    &:focus {
+      background-color: rgb(6, 22, 255);
+    }
+  }
+}
