@@ -22,68 +22,112 @@
         <a href="" class="logo">
           <img src="./img/icon/logo.svg" alt="" />
         </a>
-        <button type="button" class="nav_button">
-          <img src="./img/icon/menu.svg" alt="" />
+        <button
+          type="button"
+          class="nav_button navigation-button"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg
+            width="30px"
+            height="30px"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="icon-cross"
+              href="./img/icon/symbol-defs.svg#close"
+            ></use>
+            <use class="icon-menu" href="./img/icon/symbol-defs.svg#menu"></use>
+          </svg>
+          <!-- <img src="./img/icon/menu.svg" alt="" /> -->
         </button>
-
-        <div class="navigation_menu main_nav">
-          <ul class="site_nav">
-            <li class="item_site_nav">Услуги и цены</li>
-            <li class="item_site_nav">Галерея</li>
-            <li class="item_site_nav">3D тур</li>
-            <li class="item_site_nav">Продукция</li>
-            <li class="item_site_nav">Отзывы</li>
-            <li class="item_site_nav">Статьи</li>
-            <li class="item_site_nav">Контакты</li>
-          </ul>
-          <ul class="auth_nav">
-            <li class="item_auth_nav">
-              <a href="" class="icon_link_bascket">
-                <img
-                  src="./img/icon/bascket.svg"
-                  alt="инстаграмм"
-                  class="icon_img"
-                />
-              </a>
-            </li>
-            <li class="item_auth_nav">
-              <a href="tel:+74994900413" class="foot_tel">
-                <span class="first_text">Контакты</span>
-                <span class="second_text">+7 (499) 490-04-13</span>
-              </a>
-            </li>
-            <li class="item_auth_nav icon">
-              <ul class="icon_list">
-                <li class="icon_item">
-                  <a href="" class="icon_link">
-                    <img
-                      src="./img/icon/Instagram.svg"
-                      alt="инстаграмм"
-                      class="icon_img"
-                    />
-                  </a>
-                </li>
-                <li class="icon_item">
-                  <a href="" class="icon_link">
-                    <img
-                      src="./img/icon/WhatsApp.svg"
-                      alt="вотцап"
-                      class="icon_img"
-                    />
-                  </a>
-                </li>
-                <li class="icon_item">
-                  <a href="" class="icon_link">
-                    <img
-                      src="./img/icon/Telega.svg"
-                      alt="телеграм"
-                      class="icon_img"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+        <div class="back_drop_menu" data-back-drop>
+          <div class="navigation_menu main_nav" data-menu>
+            <ul class="site_nav">
+              <li class="item_site_nav logo_menu">
+                <a href="" class="logo">
+                  <img src="./img/icon/logo.svg" alt="" />
+                </a>
+                <button
+                  type="button"
+                  class="close_btn"
+                  data-menu-close
+                  aria-expanded="true"
+                >
+                  <img src="./img/icon/menu.svg" alt="" />
+                </button>
+              </li>
+              <li class="item_site_nav">
+                <a href=""> Услуги и цены </a>
+              </li>
+              <li class="item_site_nav">
+                <a href=""> Галерея </a>
+              </li>
+              <li class="item_site_nav">
+                <a href=""> 3D тур </a>
+              </li>
+              <li class="item_site_nav">
+                <a href=""> Продукция </a>
+              </li>
+              <li class="item_site_nav">
+                <a href=""> Отзывы </a>
+              </li>
+              <li class="item_site_nav">
+                <a href=""> Статьи </a>
+              </li>
+              <li class="item_site_nav">
+                <a href=""> Контакты </a>
+              </li>
+            </ul>
+            <ul class="auth_nav">
+              <li class="item_auth_nav">
+                <a href="" class="icon_link_bascket">
+                  <img
+                    src="./img/icon/bascket.svg"
+                    alt="инстаграмм"
+                    class="icon_img"
+                  />
+                </a>
+              </li>
+              <li class="item_auth_nav">
+                <a href="tel:+74994900413" class="foot_tel">
+                  <span class="first_text">Контакты</span>
+                  <span class="second_text">+7 (499) 490-04-13</span>
+                </a>
+              </li>
+              <li class="item_auth_nav icon">
+                <ul class="icon_list">
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Instagram.svg"
+                        alt="инстаграмм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/WhatsApp.svg"
+                        alt="вотцап"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Telega.svg"
+                        alt="телеграм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -723,7 +767,7 @@
       </div>
     </div>
 
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
     <script src="js/menu.js"></script>
   </body>
 </html>

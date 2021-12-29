@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   // margin-bottom: 35px;
 
   @media screen and (min-width: 768px) {
@@ -38,15 +39,19 @@
 
 .navigation_menu {
   display: flex;
-  @media screen and (min-width: 300px) and (max-width: 767px) {
-    display: none;
-  }
+  // @media screen and (min-width: 300px) and (max-width: 767px) {
+  //   display: none;
+  // }
 }
 
 .site_nav {
   display: flex;
   padding: 0;
   margin: 0;
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    flex-direction: column;
+  }
 
   @media screen and (min-width: 768px) {
     margin-right: 22px;
@@ -56,6 +61,12 @@
   & .item_site_nav {
     list-style: none;
     margin-right: 5px;
+  }
+
+  & .logo_menu {
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
   }
 }
 
@@ -112,5 +123,73 @@
       font-size: 11px;
       line-height: 19px;
     }
+  }
+}
+
+/// МОБИЛЬНОЕ МЕНЮ
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navigation-button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    & .icon-cross {
+      display: none;
+    }
+
+    &.is-open .icon-cross {
+      display: block;
+    }
+
+    &.is-open .icon-menu {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .back_drop_menu {
+    display: none;
+    &.is-open {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(40, 41, 48, 0.5);
+      display: block;
+      top: 0;
+      right: 0;
+      position: fixed;
+      z-index: 1;
+    }
+  }
+  .navigation_menu {
+    display: none;
+
+    position: absolute;
+    width: 270px;
+    height: 583px;
+
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    padding: 20px;
+    // text-align: center;
+    font-size: 20px;
+
+    background: #282930;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+      0px 1px 3px rgba(0, 0, 0, 0.16);
+
+    &.is-open {
+      display: block;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation_button {
+    display: none;
   }
 }
