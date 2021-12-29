@@ -1,6 +1,10 @@
 .section_gallery {
-  height: 1200px;
   padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 30px;
+    height: 1050px;
+  }
 
   & .gallery_titel {
     margin: 0;
@@ -19,6 +23,13 @@
       line-height: 70px;
       text-align: left;
       margin-bottom: 60px;
+    }
+  }
+
+  & .gallery_slayd_img {
+    width: 290px;
+    @media screen and (min-width: 768px) {
+     display: none;
     }
   }
 
@@ -66,6 +77,10 @@
       'q q w e'
       'a s d f'
       'z s x x';
+
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      display: none;
+    }
   }
 
   & .q {

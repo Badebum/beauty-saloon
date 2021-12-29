@@ -21,7 +21,7 @@
   padding: 40px;
   margin: 15px;
 
-  background: $white-color;
+  background: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -81,13 +81,13 @@
   letter-spacing: 0.01em;
   padding: 12px 16px;
 
-  color: $secondary-text-color;
+  color: #5f5f5f;
 
   position: relative;
 
   &:focus + .text-area-label,
   &:not(:placeholder-shown) + .text-area-label {
-    color: $accent-color;
+    color: #F4AD7B;
     transform: translateY(-31px);
   }
 
@@ -100,7 +100,7 @@
   }
 
   &:focus {
-    border: 1px solid $accent-color;
+    border: 1px solid #F4AD7B;
   }
 }
 
@@ -121,16 +121,16 @@
 
   &:focus + .form-label,
   &:not(:placeholder-shown) + .form-label {
-    color: $accent-color;
+    color: #F4AD7B;
     transform: translateY(-40px) translateX(-26px);
   }
 
   &:focus ~ .icon-input {
-    fill: $accent-color;
+    fill: #F4AD7B;
   }
 
   &:focus {
-    border: 1px solid $accent-color;
+    border: 1px solid #F4AD7B;
   }
 }
 
@@ -188,11 +188,11 @@
 }
 
 .checkbox:checked + .icon-checkbox {
-  background-color: $accent-color;
+  background-color: #F4AD7B;
   background-image: url(../img/icon/icon-check.svg);
   background-size: contain;
   background-origin: content-box;
-  border: $accent-color;
+  border: #F4AD7B;
 }
 
 .submit-btn {
@@ -210,6 +210,6 @@
 
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: $white-color;
+  color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

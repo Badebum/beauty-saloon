@@ -1,5 +1,10 @@
 .footer {
   width: 320px;
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+
   & .logo_title {
     display: flex;
     justify-content: space-between;
@@ -37,6 +42,12 @@
 
     margin: 0;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+      align-items: flex-start;
+      text-align: left;
+    }
+
     & .first_text {
       font-weight: 500;
       font-size: 11px;
@@ -62,6 +73,12 @@
     margin: 0;
     margin-bottom: 20px;
 
+    @media screen and (min-width: 768px) {
+      align-items: flex-start;
+      text-align: left;
+      width: 200px;
+    }
+
     & .first_text {
       font-weight: 500;
       font-size: 11px;
@@ -72,6 +89,23 @@
       font-weight: 500;
       font-size: 20px;
       line-height: 100%;
+    }
+  }
+}
+
+.footer_list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding: 0;
+  }
+
+  & .footer_list_itam {
+    list-style: none;
+
+    @media screen and (min-width: 768px) {
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
     }
   }
 }

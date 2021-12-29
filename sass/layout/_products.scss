@@ -39,6 +39,15 @@
   .product_list {
     padding: 0;
     display: flex;
+
+    & .prod_2,
+    & .prod_3,
+    & .prod_4 {
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        display: none;
+        // времено, нужен слайдер
+      }
+    }
   }
 
   .product_item {
