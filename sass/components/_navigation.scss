@@ -1,5 +1,8 @@
-.nav {
+.page-header {
   background-color: #282930;
+}
+
+.nav {
   height: 67px;
 
   display: flex;
@@ -51,6 +54,7 @@
 
   @media screen and (min-width: 320px) and (max-width: 768px) {
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   @media screen and (min-width: 768px) {
@@ -61,11 +65,44 @@
   & .item_site_nav {
     list-style: none;
     margin-right: 5px;
+    position: relative;
+
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+    }
+
+    & .item_link {
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 155.32%;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+    }
+
+    & .close_btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: unset;
+      border: none;
+      cursor: pointer;
+    }
   }
 
   & .logo_menu {
     @media screen and (min-width: 768px) {
       display: none;
+    }
+  }
+
+  & .item_site_nav {
+    & a {
+      text-decoration: none;
+      color: white;
     }
   }
 }
@@ -76,6 +113,11 @@
   list-style: none;
   padding: 0;
   margin: 0;
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
   & .icon_link_bascket {
     background-color: #f4ad7b;
@@ -90,9 +132,23 @@
     cursor: pointer;
   }
 
+  & .basket {
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      display: none;
+    }
+  }
+
   @media screen and (min-width: 768px) {
     .item_auth_nav:not(:last-child) {
       margin-right: 22px;
+    }
+  }
+
+  & .item_auth_nav {
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      & .icon_list {
+        justify-content: flex-start;
+      }
     }
   }
 
