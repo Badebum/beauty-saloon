@@ -1558,7 +1558,13 @@ body {
   font-weight: 500;
   font-size: 13px;
   line-height: 18px;
-  color: white;
+  color: #5f5f5f;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .logo_title .text {
+    color: white;
+  }
 }
 
 .footer .foot_address {

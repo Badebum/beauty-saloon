@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beauty salon</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/3Dtur.min.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav class="nav container">
+        <a href="./index.html" class="logo">
+          <img src="./img/icon/logo.svg" alt="" />
+        </a>
+        <button
+          type="button"
+          class="nav_button navigation-button"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg
+            width="30px"
+            height="30px"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="icon-cross"
+              href="./img/icon/symbol-defs.svg#close"
+            ></use>
+            <use class="icon-menu" href="./img/icon/symbol-defs.svg#menu"></use>
+          </svg>
+          <!-- <img src="./img/icon/menu.svg" alt="" /> -->
+        </button>
+        <div class="back_drop_menu" data-back-drop>
+          <div class="navigation_menu main_nav" data-menu>
+            <ul class="site_nav">
+              <li class="item_site_nav logo_menu">
+                <a href="" class="logo">
+                  <img src="./img/icon/logo.svg" alt="" />
+                </a>
+                <button
+                  type="button"
+                  class="close_btn"
+                  aria-expanded="true"
+                  data-menu-close
+                >
+                  <svg
+                    width="30px"
+                    height="30px"
+                    aria-label="Переключатель мобильного меню"
+                  >
+                    <use
+                      class="close_btn_cross"
+                      href="./img/icon/symbol-defs.svg#close"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Услуги и цены </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Галерея </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./3Dtur.html" class="item_link"> 3D тур </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Продукция </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Отзывы </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Статьи </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Контакты </a>
+              </li>
+            </ul>
+
+            <ul class="auth_nav">
+              <li class="item_auth_nav basket">
+                <a href="" class="icon_link_bascket">
+                  <img
+                    src="./img/icon/bascket.svg"
+                    alt="инстаграмм"
+                    class="icon_img"
+                  />
+                </a>
+              </li>
+              <li class="item_auth_nav">
+                <a href="tel:+74994900413" class="foot_tel">
+                  <span class="first_text">Контакты</span>
+                  <span class="second_text">+7 (499) 490-04-13</span>
+                </a>
+              </li>
+              <li class="item_auth_nav icon">
+                <ul class="icon_list">
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Instagram.svg"
+                        alt="инстаграмм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/WhatsApp.svg"
+                        alt="вотцап"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Telega.svg"
+                        alt="телеграм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 3D TUR -->
+
+      <div class="section_tur container">
+        <h1 class="main_title">Виртуальный тур</h1>
+        <h4 class="second_title">
+          Посмотрите наш виртуальный тур, чтобы узнать больше о нас
+        </h4>
+        <button type="button" class="rut_btn">Посмотреть</button>
+        <p class="tur_text">beauty</p>
+      </div>
+
+      <div class="reviews_section container">
+        <h5 class="rev_title">Отзывы клиентов</h5>
+        <div class="rev_card">
+          <p class="head_title">Замечательный маникюр</p>
+          <p class="rev_text">
+            “Устроили другу “секретный праздник”. Остались довольны все и
+            именинник и гости. Спасибо Харизме!”
+          </p>
+          <ul class="rating_list">
+            <li class="list_item">
+              <p class="kind_text">Качество</p>
+              <p class="kind_rating">5 из 10</p>
+            </li>
+            <li class="list_item">
+              <p class="kind_text">Обслуживание</p>
+              <p class="kind_rating">8 из 10</p>
+            </li>
+            <li class="list_item">
+              <p class="kind_text">Атмосфера</p>
+              <p class="kind_rating">8 из 10</p>
+            </li>
+          </ul>
+          <div class="people_card">
+            <img
+              src="./img/feedback/feedback_1.jpg"
+              alt=""
+              class="feedback_img"
+            />
+            <div>
+              <p class="text_name">Валерия</p>
+              <p class="text_age">27 лет</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="section-footer">
+      <div class="footer container">
+        <ul class="footer_list">
+          <li class="footer_list_itam">
+            <div class="logo_title">
+              <a href="" class="logo">
+                <img src="./img/icon/logo.svg" alt="" class="logo_img" />
+              </a>
+              <p class="text">Двери нашей студии красоты открыты для Вас</p>
+            </div>
+          </li>
+          <li class="footer_list_itam">
+            <a href="" class="foot_address">
+              <span class="first_text">г. Пушкино</span>
+              <span class="second_text">Московский проспект, д. 27</span>
+            </a>
+          </li>
+          <li class="footer_list_itam">
+            <a href="" class="foot_address">
+              <span class="first_text">г. Москва</span>
+              <span class="second_text"
+                >Черноморский бульвар, д .10, корп. 1</span
+              >
+            </a>
+          </li>
+          <li class="footer_list_itam">
+            <a href="tel:+74994900413" class="foot_tel">
+              <span class="first_text">Контакты</span>
+              <span class="second_text">+7 (499) 490-04-13</span>
+            </a>
+          </li>
+          <li class="footer_list_itam">
+            <div class="icon">
+              <ul class="icon_list">
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Instagram.svg"
+                      alt="инстаграмм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/WhatsApp.svg"
+                      alt="вотцап"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Telega.svg"
+                      alt="телеграм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>

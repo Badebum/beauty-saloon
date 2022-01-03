@@ -481,46 +481,57 @@ body {
   }
 }
 
-.reviews_section {
-  background-color: #fff;
+.section_tur {
+  background-image: url(../../../img/3dtur/bgimg_3dtur.jpg);
+  background-position: center;
+  background-size: contain;
+  width: 1200px;
+  height: 780px;
+  text-align: center;
+  padding: 155px 0 115px 0;
 }
 
-.title_page {
-  font-size: 30px;
-  line-height: 140.62%;
-  color: #3b3b3b;
-}
-
-.sec_rev_title {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 33px;
-  margin-bottom: 33px;
-  color: #3b3b3b;
-}
-
-.card_reviews {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.section_tur .main_title {
+  font-family: Playfair Display;
+  font-size: 90px;
+  line-height: 100px;
+  text-align: center;
   margin: 0;
-  padding: 0;
-  margin-right: -50px;
-  color: #3b3b3b;
+  margin-bottom: 20px;
 }
 
-.card_reviews_item {
-  list-style: none;
-  width: calc((100% - 80px) / 2);
-  margin-right: 30px;
+.section_tur .second_title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 70px;
 }
 
-@media screen and (min-width: 768px) {
-  .rev_card {
-    width: 550px;
-    border: 1px solid #d0d0d0;
-    border-radius: 40px;
-  }
+.section_tur .tur_text {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 150px;
+  line-height: 144%;
+  text-align: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.section_tur .rut_btn {
+  border: 1px solid #fff;
+  width: 452px;
+  height: 90px;
+  color: #fff;
+  background-color: unset;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 .section-footer {
@@ -640,4 +651,4 @@ body {
     margin-right: 50px;
   }
 }
-/*# sourceMappingURL=reviews.css.map */
+/*# sourceMappingURL=3Dtur.css.map */
