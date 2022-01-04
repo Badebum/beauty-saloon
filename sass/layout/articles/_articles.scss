@@ -1,0 +1,103 @@
+.title_page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_title {
+  font-family: 'Playfair Display';
+
+  font-size: 90px;
+  line-height: 100px;
+
+  margin: 0;
+  margin-bottom: 58px;
+}
+
+.search_input {
+  width: 580px;
+  height: 31px;
+
+  background-color: unset;
+
+  border: none;
+  border-bottom: 1px solid #d0d0d0;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #b0b0b0;
+}
+
+.articles_list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articles_card {
+  border: 1px solid #383838;
+  border-radius: 40px;
+  padding: 50px;
+}
+
+.articles_item {
+  list-style: none;
+  margin-bottom: 40px;
+  margin-right: 40px;
+
+  width: calc((100% - 40px) / 2);
+  // width: 580px;
+
+  // &:not(:last-child) {
+  //   margin-right: 40px;
+  // }
+
+  &:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  &:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+}
+
+.text_date {
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 11px;
+  line-height: 19px;
+
+  color: #5f5f5f;
+
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.articles_title {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.text_description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.articles_link {
+  color: white;
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 122.19%;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
