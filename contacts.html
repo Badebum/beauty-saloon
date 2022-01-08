@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beauty salon</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/contacts.min.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav class="nav container">
+        <a href="./index.html" class="logo">
+          <img src="./img/icon/logo.svg" alt="" />
+        </a>
+        <button
+          type="button"
+          class="nav_button navigation-button"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg
+            width="30px"
+            height="30px"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="icon-cross"
+              href="./img/icon/symbol-defs.svg#close"
+            ></use>
+            <use class="icon-menu" href="./img/icon/symbol-defs.svg#menu"></use>
+          </svg>
+          <!-- <img src="./img/icon/menu.svg" alt="" /> -->
+        </button>
+        <div class="back_drop_menu" data-back-drop>
+          <div class="navigation_menu main_nav" data-menu>
+            <ul class="site_nav">
+              <li class="item_site_nav logo_menu">
+                <a href="./index.html" class="logo">
+                  <img src="./img/icon/logo.svg" alt="" />
+                </a>
+                <button
+                  type="button"
+                  class="close_btn"
+                  aria-expanded="true"
+                  data-menu-close
+                >
+                  <svg
+                    width="30px"
+                    height="30px"
+                    aria-label="Переключатель мобильного меню"
+                  >
+                    <use
+                      class="close_btn_cross"
+                      href="./img/icon/symbol-defs.svg#close"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Услуги и цены </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Галерея </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./3Dtur.html" class="item_link"> 3D тур </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="" class="item_link"> Продукция </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./reviews.html" class="item_link"> Отзывы </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./articles.html" class="item_link"> Статьи </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./contacts.html" class="item_link"> Контакты </a>
+              </li>
+            </ul>
+
+            <ul class="auth_nav">
+              <li class="item_auth_nav basket">
+                <a href="" class="icon_link_bascket">
+                  <img
+                    src="./img/icon/bascket.svg"
+                    alt="инстаграмм"
+                    class="icon_img"
+                  />
+                </a>
+              </li>
+              <li class="item_auth_nav">
+                <a href="tel:+74994900413" class="foot_tel">
+                  <span class="first_text">Контакты</span>
+                  <span class="second_text">+7 (499) 490-04-13</span>
+                </a>
+              </li>
+              <li class="item_auth_nav icon">
+                <ul class="icon_list">
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Instagram.svg"
+                        alt="инстаграмм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/WhatsApp.svg"
+                        alt="вотцап"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Telega.svg"
+                        alt="телеграм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- STOCKS MENU -->
+
+      <div class="stocks_menu container">
+        <ul class="list_stocks_menu">
+          <li class="item_stocks_menu part_1 list">
+            <p class="prop_text">10% скидка на первый заказ</p>
+            <p class="second_prop_text">промокод welcom</p>
+          </li>
+          <li class="item_stocks_menu part_2 list">
+            <p class="prop_text">Бесплатная доставка от 6000 рублей</p>
+            <p class="second_prop_text">по России, Беларуси и Казахстану</p>
+          </li>
+          <li class="item_stocks_menu part_3 list">
+            <p class="prop_text">Пригласи друга - получи скидку</p>
+            <p class="second_prop_text">Дарим 1 000 руб тебе и -20% другу</p>
+          </li>
+          <li class="item_stocks_menu part_4 list">
+            <p class="prop_text">Заказ индивидуальной</p>
+
+            <p class="prop_text2">косметики</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Form feedback contact -->
+
+      <div class="section_form container">
+        <div class="contact_details">
+          <h1 class="main_title">Контакты</h1>
+          <p class="under_title">
+            Контактные данные Студии красоты Noemi Nails & Fashion Studio
+          </p>
+         <div class="tb">
+            <input type="checkbox" checked/>
+          <h3 class="title_place">Москва</h3>
+          <ul class="details_list">
+            <li class="details_item list">
+              <p class="point_details">Адрес</p>
+              <p>г. Москва, ул. Тайнинская д. 19</p>
+            </li>
+            <li class="details_item list">
+              <p class="point_details">Телефон</p>
+              <p class="point_details_second">
+                8 800 444 0059
+                <span>Бесплатный звонок по России</span>
+              </p>
+            </li>
+            <li class="details_item list">
+              <p class="point_details">Эл. почта</p>
+              <p class="point_details_second">info@beautylight.ru</p>
+            </li>
+            <li class="details_item list">
+              <p class="point_details">
+                Есть вопросы? <br />
+                <span
+                  >Напишите нашему <br />
+                  консультанту в чат или звоните</span
+                >
+              </p>
+
+              <button type="button" class="form_btn btn">Написать нам</button>
+            </li>
+          </ul>
+         </div>
+
+         <div class="tb">
+            <input type="checkbox"/>
+          <h3 class="title_place">Пушкино</h3>
+          <ul class="details_list">
+            <li class="details_item list">
+              <p class="point_details">Адрес</p>
+              <p>Московский проспект, д. 27</p>
+            </li>
+            <li class="details_item list">
+              <p class="point_details">Телефон</p>
+              <p class="point_details_second">
+                8 800 444 0059
+                <span>Бесплатный звонок по России</span>
+              </p>
+            </li>
+            <li class="details_item list">
+              <p class="point_details">Эл. почта</p>
+              <p class="point_details_second">info@beautylight.ru</p>
+            </li>
+            <li class="details_item list">
+              <p class="point_details">
+                Есть вопросы? <br />
+                <span
+                  >Напишите нашему <br />
+                  консультанту в чат или звоните</span
+                >
+              </p>
+
+              <button type="button" class="form_btn btn">Написать нам</button>
+            </li>
+          </ul>
+         </div>
+
+          
+
+        </div>
+
+        <div class="send_form">
+          <h2 class="send_form-titel">Написать нам</h2>
+          <form class="form">
+            <div class="form-field">
+              <input
+                type="text"
+                class="form-input"
+                name="user-name"
+                id="user-name"
+                placeholder=" "
+              />
+
+              <label for="user-name" class="form-label">Имя</label>
+            </div>
+
+            <div class="form-field">
+              <input
+                type="email"
+                class="form-input"
+                name="email"
+                id="email"
+                placeholder=" "
+              />
+              <label for="email" class="form-label">Почта</label>
+            </div>
+
+            <div class="form-field">
+              <input
+                type="tel"
+                class="form-input"
+                name="tel"
+                id="tel"
+                placeholder=" "
+              />
+              <label for="tel" class="form-label">Телефон</label>
+            </div>
+
+            <div class="form-field">
+              <textarea
+                name="text-area"
+                id=""
+                rows="10"
+                placeholder=" "
+                class="text-area"
+              ></textarea>
+              <label for="text-area" class="text-area-label">Сообщение</label>
+            </div>
+
+            <div>
+              <label class="checkbox-label">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="policy"
+                  value="policity"
+                />
+                <span class="icon-checkbox"></span>
+                Я согласен с обработкой
+                <a class="politics" href="">&nbsp; персональных данных</a>
+              </label>
+            </div>
+
+            <button type="submit" class="submit-btn btn">Отправить</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Section MAP -->
+
+      <div class="section_map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2237.657936538049!2d37.68264031539722!3d55.885947989183244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b531374bc2f86d%3A0xa44ddf52d6a03a6!2z0KLQsNC50L3QuNC90YHQutCw0Y8g0YPQuy4sIDE5LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTI5MzQ1!5e0!3m2!1sru!2sua!4v1641641285686!5m2!1sru!2sua"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          class="map_msc"
+        ></iframe>
+        <div class="map_form">
+          <ul class="list_map_switch">
+            <li class="list">
+              <div class="form_radio_btn">
+                <input id="radio-1" type="radio" name="radio" value="1" checked>
+                <label for="radio-1">Москва</label>
+              </div>
+             </li>
+            <li class="list">
+              <div class="form_radio_btn">
+                <input id="radio-2" type="radio" name="radio" value="2">
+                <label for="radio-2" >Пушкино</label>
+              </div>
+            </li>
+          </ul>
+          <div>
+            <ul class="list_schedule">
+              <li class="item_schedule list">
+                <p class="text_adress">Московский проспект, д. 27</p>
+              </li>
+              <li class="item_schedule list">
+                <p class="text_tel">+7 (499) 490-04-13</p>
+              </li>
+              <li class="item_schedule list">
+                <p class="text_time">Пн. - Сб.: 09:00 - 00:00 <br /> Вс.: 10:00 - 22:00</p>
+              </li>
+              <li class="item_schedule list">
+                <ul class="auth_nav">
+                  <li class="item_auth_nav icon">
+                <ul class="icon_list">
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Instagram.svg"
+                        alt="инстаграмм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/WhatsApp.svg"
+                        alt="вотцап"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Telega.svg"
+                        alt="телеграм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                </ul>
+                  </li>
+              </li>
+            </ul>
+          </div>
+            <button type="button" class="map_form_btn btn">Заказать звонок</button>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="section-footer">
+      <div class="footer container">
+        <ul class="footer_list">
+          <li class="footer_list_item">
+            <div class="logo_title">
+              <a href="" class="logo">
+                <img src="./img/icon/logo.svg" alt="" class="logo_img" />
+              </a>
+              <p class="text">Двери нашей студии красоты открыты для Вас</p>
+            </div>
+          </li>
+          <li class="footer_list_item">
+            <a href="" class="foot_address">
+              <span class="first_text">г. Пушкино</span>
+              <span class="second_text">Московский проспект, д. 27</span>
+            </a>
+          </li>
+          <li class="footer_list_item">
+            <a href="" class="foot_address">
+              <span class="first_text">г. Москва</span>
+              <span class="second_text"
+                >Черноморский бульвар, д .10, корп. 1</span
+              >
+            </a>
+          </li>
+          <li class="footer_list_item">
+            <a href="tel:+74994900413" class="foot_tel">
+              <span class="first_text">Контакты</span>
+              <span class="second_text">+7 (499) 490-04-13</span>
+            </a>
+          </li>
+          <li class="footer_list_item">
+            <div class="icon">
+              <ul class="icon_list">
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Instagram.svg"
+                      alt="инстаграмм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/WhatsApp.svg"
+                      alt="вотцап"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Telega.svg"
+                      alt="телеграм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>

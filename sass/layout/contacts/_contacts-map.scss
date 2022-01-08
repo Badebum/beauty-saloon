@@ -1,0 +1,101 @@
+.section_map {
+  text-align: center;
+  position: relative;
+
+  & .map_msc {
+    width: 1300px;
+    height: 750px;
+  }
+}
+
+.map_form {
+  width: 460px;
+  height: 550px;
+  background-color: #282930;
+  padding: 80px;
+  margin: 0;
+
+  position: absolute;
+  top: 10%;
+  left: 11%;
+}
+
+.list_map_switch {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_schedule {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.item_schedule {
+  margin-bottom: 30px;
+  & .text_adress {
+    font-size: 22px;
+    line-height: 120%;
+  }
+
+  & .text_tel {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  & .text_time {
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  & .icon_link {
+    background-color: #fff;
+  }
+}
+
+// кнопки
+
+.map_form_btn {
+  width: 300px;
+  height: 60px;
+
+  background-color: #fff;
+}
+
+.form_radio_btn {
+  display: inline-block;
+  margin-right: 10px;
+}
+.form_radio_btn input[type='radio'] {
+  display: none;
+}
+.form_radio_btn label {
+  display: inline-block;
+  background-color: unset;
+  border: none;
+  border-bottom: 1px solid #f4ad7b00;
+  padding: 0;
+  cursor: pointer;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  user-select: none;
+}
+
+/* Checked */
+.form_radio_btn input[type='radio']:checked + label {
+  color: #f4ad7b;
+  border-bottom: 1px solid #f4ad7b;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+  color: #666;
+  border-bottom: 1px solid #666;
+}

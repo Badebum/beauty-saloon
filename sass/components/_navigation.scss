@@ -154,12 +154,10 @@
 
   & .icon {
     width: 150px;
+  }
 
-    & .icon_item {
-      & .icon_link {
-        background-color: #f4ad7b;
-      }
-    }
+  & .icon_link {
+    background-color: #f4ad7b;
   }
 
   & .foot_tel {

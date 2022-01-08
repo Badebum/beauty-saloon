@@ -100,6 +100,7 @@
 }
 
 .footer_list {
+  margin: 0;
   @media screen and (min-width: 768px) {
     display: flex;
 
@@ -107,8 +108,12 @@
     padding: 0;
   }
 
-  & .footer_list_itam {
+  & .footer_list_item {
     list-style: none;
+
+    & .icon_link {
+      background-color: #f4ad7b;
+    }
 
     @media screen and (min-width: 768px) {
       &:not(:last-child) {
