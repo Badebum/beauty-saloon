@@ -169,120 +169,324 @@
 
       <!-- section PRICE -->
 
-      <section class="price">
+      <section class="price container">
         <h1>Услуги и цены</h1>
         <input type="text" placeholder="Поиск услуг на странице" />
         <h3>Салон красоты в г.Москве</h3>
         <h3>Салон красоты в г.Пушкино</h3>
 
-        <table>
-          <tr>
-            <th>Услуга</th>
-            <th>Короткие до 10см</th>
-            <th>Средние до 20см</th>
-            <th>Длинные до 30см</th>
-            <th>Забронировать</th>
-          </tr>
-          <tr>
-            <td>Тонирование <span>(Kevin Murphy)</span></td>
-            <td>1800 руб.</td>
-            <td>2500 руб.</td>
-            <td>3200 руб.</td>
-            <td>Забронировать</td>
-          </tr>
+        <!-- Women room -->
 
-          <tr>
-            <td>Мелирование <span>(Kevin Murphy)</span></td>
-            <td>1900 руб.</td>
-            <td>3100 руб.</td>
-            <td>4500 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Окрашивание <span>(Kevin Murphy)</span></td>
-            <td>2000 руб.</td>
-            <td>3600 руб.</td>
-            <td>4900 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Сложное окрашивание <span>(Kevin Murphy)</span></td>
-            <td>2800 руб.</td>
-            <td>5000 руб.</td>
-            <td>6900 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Мелирование шатуш <span>(Kevin Murphy)</span></td>
-            <td>4500 руб.</td>
-            <td>5100 руб.</td>
-            <td>6000 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Мелирование частичное <span>(Organic Colour Systems)</span></td>
-            <td></td>
-            <td>4300 руб.</td>
-            <td></td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Окрашивание корней <span>(Organic Colour Systems)</span></td>
-            <td></td>
-            <td>2700 руб.</td>
-            <td></td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Тонирование <span>(Organic Colour Systems)</span></td>
-            <td>3700 руб.</td>
-            <td>4300 руб.</td>
-            <td>5100 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Окрашивание <span>(Organic Colour Systems)</span></td>
-            <td>3700 руб.</td>
-            <td>2700 руб.</td>
-            <td>5100 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td>Сложное окрашивание <span>(Organic Colour Systems)</span></td>
-            <td>3700 руб.</td>
-            <td>4300 руб.</td>
-            <td>5100 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-        </table>
+        <div class="tb">
+          <input type="checkbox" checked />
+          <h3 class="title_place">Окрашивание волос (женский зал)</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title">Короткие до 10см</th>
+              <th class="table_title">Средние до 20см</th>
+              <th class="table_title">Длинные до 30см</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">3200 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
 
-        <table>
-          <tr>
-            <th>Услуга</th>
-            <th>Цена</th>
-            <th>Забронировать</th>
-          </tr>
-          <tr>
-            <td><span>(Kevin Murphy)</span></td>
-            <td>1800 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td><span>(Kevin Murphy)</span></td>
-            <td>2000 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td><span>(Organic Colour Systems)</span></td>
-            <td>2500 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-          <tr>
-            <td><span>(Organic Colour Systems)</span></td>
-            <td>3000 руб.</td>
-            <td>Забронировать</td>
-          </tr>
-        </table>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Мелирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title">1900 руб.</td>
+              <td class="table_title">3100 руб.</td>
+              <td class="table_title">4500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">3600 руб.</td>
+              <td class="table_title">4900 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Сложное окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title">2800 руб.</td>
+              <td class="table_title">5000 руб.</td>
+              <td class="table_title">6900 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Мелирование шатуш</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title">4500 руб.</td>
+              <td class="table_title">5100 руб.</td>
+              <td class="table_title">6000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Мелирование частичное</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title">4300 руб.</td>
+              <td class="table_title"></td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание корней</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title">2700 руб.</td>
+              <td class="table_title"></td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title">3700 руб.</td>
+              <td class="table_title">4300 руб.</td>
+              <td class="table_title">5100 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title">3700 руб.</td>
+              <td class="table_title">2700 руб.</td>
+              <td class="table_title">5100 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Сложное окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title">3700 руб.</td>
+              <td class="table_title">4300 руб.</td>
+              <td class="table_title">5100 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- man room -->
+
+        <div class="tb">
+          <input type="checkbox" checked />
+          <h3 class="title_place">Окрашивание волос (мужской зал)</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">3000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- lash and brow-->
+
+        <div class="tb">
+          <input type="checkbox" checked />
+          <h3 class="title_place">Брови и ресницы</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Дизайн бровей</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Коррекция бровей</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">350 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Окрашивание бровей краской Refectocil</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Окрашивание бровей хной</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">БИО-укладка бровей</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Ламинирование бровей</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1600 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Окрашивание ресниц краской Refectocil</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Окрашивание ресниц хной</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Ботокс ресниц</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">Ламинирование ресниц</td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2300 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
       </section>
     </main>
 

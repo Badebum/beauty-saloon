@@ -371,6 +371,138 @@ body {
   background-color: #e5e5e5;
 }
 
+.table_women {
+  width: 900px;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+}
+
+.table_line {
+  background-color: #fff;
+  height: 75px;
+}
+
+.table_line:nth-child(2n) {
+  background-color: #fef7f2;
+}
+
+.table_title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  min-width: 171px;
+  text-align: center;
+  color: #777777;
+  padding: 25px;
+}
+
+.table_title:first-child {
+  text-align: left;
+  padding: 25px;
+}
+
+.table_title:last-child {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.table_title .reservation {
+  height: 100%;
+  border: none;
+  background-color: unset;
+  padding: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 100%;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f4ad7b;
+  border-bottom: 1px solid #f4ad7b;
+}
+
+.table_title:hover, .table_title:focus {
+  opacity: 1;
+}
+
+.text_service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.text_master {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 19px;
+  color: #ac92ed;
+  margin: 0;
+  padding: 0;
+}
+
+.title_place {
+  position: relative;
+  width: 900px;
+  height: 60px;
+  margin: 0;
+  padding: 13px 25px 13px 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  color: #282930;
+  background-color: #f4ad7b;
+}
+
+.tb {
+  width: 580px;
+  margin: 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.tb input[type='checkbox'] {
+  width: 900px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.tb .title_place:after {
+  content: '^';
+  position: absolute;
+  font-size: 40px;
+  font-weight: 100;
+  top: 5px;
+  right: 25px;
+  color: #282930;
+  transform: rotate(180deg);
+}
+
+.tb .table_women {
+  display: none;
+}
+
+.tb input[type='checkbox']:checked ~ .title_place:after {
+  content: '^';
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  transform: rotate(0deg);
+}
+
+.tb input[type='checkbox']:checked ~ .table_women {
+  display: table;
+}
+
 .section-footer {
   background-color: #282930;
 }
