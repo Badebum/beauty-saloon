@@ -170,16 +170,104 @@
       <!-- section PRICE -->
 
       <section class="price container">
-        <h1>Услуги и цены</h1>
-        <input type="text" placeholder="Поиск услуг на странице" />
-        <h3>Салон красоты в г.Москве</h3>
-        <h3>Салон красоты в г.Пушкино</h3>
+        <div class="titel_container">
+          <h1 class="main_titel">Услуги и цены</h1>
+          <input
+            class="search_input"
+            type="text"
+            placeholder="Поиск услуг на странице"
+          />
+        </div>
+
+        <div>
+          <div class="form_radio_btn">
+            <input id="radio-1" type="radio" name="radio" value="1" checked />
+            <label class="second_titel" for="radio-1"
+              >Салон красоты в г.Москве</label
+            >
+          </div>
+
+          <div class="form_radio_btn">
+            <input id="radio-2" type="radio" name="radio" value="2" />
+            <label class="second_titel" for="radio-2"
+              >Салон красоты в г.Пушкино</label
+            >
+          </div>
+        </div>
 
         <!-- Women room -->
-
+        <aside class="aside_menu">
+          <p class="aside_titel">Перечень услуг</p>
+          <ul class="aside_list">
+            <li class="aside_item list">
+              <a href="#coloring" class="aside_link"> Окрашивание волос </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#nail_extensions" class="aside_link">
+                Наращивание ногтей
+              </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#lash_and_brow" class="aside_link"> Брови и ресницы </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#lash_extension" class="aside_link">
+                Наращивание ресниц
+              </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#hair_care" class="aside_link"> Уход и лечение волос </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#haircuts_styling" class="aside_link">
+                Стрижки и укладки
+              </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#nail_desing" class="aside_link"> Дизайн ногтей </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#cosmetology" class="aside_link"> Косметология </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#cosmetology_care" class="aside_link">
+                Косметологические уходы
+              </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#YON-KA" class="aside_link"> Косметика YON-KA </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#SKINCARE" class="aside_link">
+                Косметика IMAGE SKINCARE
+              </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#sugaring" class="aside_link"> Шугаринг </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#hot_sugaring" class="aside_link">
+                Горячий воск LYCON (Австралия)
+              </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#warm_sugaring" class="aside_link">
+                Теплый воск Beauty Image(Испания)
+              </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#nail_extensions" class="aside_link"> Маникюр </a>
+            </li>
+            <li class="aside_item list">
+              <a href="#pedicure" class="aside_link"> Педикюр </a>
+            </li>
+          </ul>
+        </aside>
         <div class="tb">
           <input type="checkbox" checked />
-          <h3 class="title_place">Окрашивание волос (женский зал)</h3>
+          <h3 class="title_place" id="coloring">
+            Окрашивание волос (женский зал)
+          </h3>
           <table class="table_women">
             <tr class="table_line">
               <th class="table_title">Услуга</th>
@@ -384,7 +472,7 @@
 
         <div class="tb">
           <input type="checkbox" checked />
-          <h3 class="title_place">Брови и ресницы</h3>
+          <h3 class="title_place" id="lash_and_brow">Брови и ресницы</h3>
           <table class="table_women">
             <tr class="table_line">
               <th class="table_title">Услуга</th>
@@ -486,6 +574,861 @@
               </td>
             </tr>
           </table>
+        </div>
+
+        <!-- lash extension -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="lash_extension">Наращивание ресниц</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">3000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- hair care and treatment -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="hair_care">Уходы и лечение волос</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">3000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- haircuts and styling women  -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="haircuts_styling">
+            Стрижки и укладки (женский зал)
+          </h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">3000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- haircuts and styling man -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place">Стрижки и укладки (мужской зал)</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">3000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- haircuts and styling children's -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place">Стрижки и укладки (детский зал)</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">3000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- nail desing -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="nail_desing">Дизайн ногтей</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Окрашивание</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">3000 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- cosmetology -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="cosmetology">Косметология</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- cosmetology care -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="cosmetology_care">
+            Косметологические уходы
+          </h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- cosmetik YON-KA -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="YON-KA">Косметика YON-KA</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Organic Colour Systems)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">2500 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- cosmetik  IMAGE SKINCARE-->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="SKINCARE">Косметика IMAGE SKINCARE</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- sugaring -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="sugaring">Шугаринг</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- sugaring -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="hot_sugaring">
+            Горячий воск LYCON (Австралия)
+          </h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- sugaring -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="warm_sugaring">
+            Теплый воск Beauty Image(Испания)
+          </h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- women's nails -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="nail_extensions">Женский маникюр</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Наращивание ногтей</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- man's nails -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place">Мужской маникюр</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- children's nails -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place">Детский маникюр</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- pedicure -->
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="pedicure">Женский педикюр</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="pedicure">Мужской педикюр</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="tb">
+          <input type="checkbox" />
+          <h3 class="title_place" id="pedicure">Детский педикюр</h3>
+          <table class="table_women">
+            <tr class="table_line">
+              <th class="table_title">Услуга</th>
+              <th class="table_title"></th>
+              <th class="table_title"></th>
+              <th class="table_title">Цена</th>
+              <th class="table_title">
+                <button class="reservation">Забронировать</button>
+              </th>
+            </tr>
+            <tr class="table_line">
+              <td class="table_title">
+                <p class="text_service">Тонирование</p>
+                <p class="text_master">(Kevin Murphy)</p>
+              </td>
+              <td class="table_title"></td>
+              <td class="table_title"></td>
+              <td class="table_title">1800 руб.</td>
+              <td class="table_title">
+                <button class="reservation">Забронировать</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- section email -->
+
+      <section class="section_mail">
+        <div class="email_form">
+          <p class="text">
+            Оставьте свой email, чтобы получить скидку 10% на первую покупку
+          </p>
+          <input type="email" class="email_input" placeholder="Ваш Email" />
+          <button type="submit" class="email_btn">Подписаться</button>
+
+          <div class="check_label">
+            <label class="checkbox-label">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="policy"
+                value="policity"
+              />
+
+              Нажимая кнопку "Подписаться" Вы соглашаетесь с
+              <a class="" href="">политикой конфиденциальности</a>
+            </label>
+          </div>
         </div>
       </section>
     </main>

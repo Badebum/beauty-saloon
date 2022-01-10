@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/reviews.min.css" />
   </head>
 
-  <body>
+  <body class="modal-open">
     <header class="page-header">
       <nav class="nav container">
         <a href="./index.html" class="logo">
@@ -147,7 +147,7 @@
 <div class="reviews_section container">
    <div class="sec_rev_title">
          <p class="tetle_page">Отзывы клиентов</p>
-    <button type="button" class="btn">Отставить отзыв</button>
+    <button type="button" class="btn" data-modal-open>Отставить отзыв</button>
 </div>
       <ul class="card_reviews">
         <li class="card_reviews_item">
@@ -450,6 +450,74 @@
 
     <!-- MODAL -->
 
-    <script src="js/menu.js"></script>
+     <!-- <div class="backdrop is-hidden" data-modal> -->
+     <div class="backdrop " data-modal>
+
+      <div class="modal">
+        <button class="close-btn" data-modal-close>
+          <svg class="icon-close-btn">
+            <use href="./img/icon/symbol-defs.svg#close"></use>
+          </svg>
+        </button>
+
+        <h3 class="modal-titel">Оставить отзыв</h3>
+        <form class="form">
+          <div class="form-field">
+            <input
+              type="text"
+              class="form-input"
+              name="user-name"
+              id="user-name"
+              placeholder=" "
+            />
+            <label for="user-name" class="form-label">Имя</label>
+            
+          </div>
+          
+           <div class="form-field">
+            <input
+              type="text"
+              class="form-input"
+              name="title"
+              id="title"
+              placeholder=" "
+            />
+
+            <label for="title" class="form-label">Заголовок отзыва</label>
+            
+          </div>
+          
+
+          <div class="form-field">
+            <textarea
+              name="text-area"
+              id=""
+              rows="10"
+              placeholder=" "
+              class="text-area"
+            ></textarea>
+            <label for="text-area" class="text-area-label">Текст отзыва</label>
+          </div>
+
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+          
+        </form>
+        <button type="submit" class="submit-btn">Отставить отзыв</button>
+      </div>
+    </div>
+
+
+    <script src="./js/modal.js"></script>
+    <script src=".js/menu.js"></script>
   </body>
 </html>
