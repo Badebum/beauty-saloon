@@ -330,17 +330,17 @@
 }
 
 .range-slider {
-  --primary-color: #0366d6;
+  --primary-color: #f4ad7b;
 
   --value-offset-y: var(--ticks-gap);
-  --value-active-color: white;
+  --value-active-color: unset;
   --value-background: transparent;
   --value-background-hover: var(--primary-color);
   --value-font: 700 12px/1 Arial;
 
   --fill-color: var(--primary-color);
-  --progress-background: #eee;
-  --progress-radius: 20px;
+  --progress-background: #cfcfcf;
+  --progress-radius: 0px;
   --track-height: calc(var(--thumb-size) / 2);
 
   --min-max-font: 12px Arial;
