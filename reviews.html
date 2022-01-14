@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/reviews.min.css" />
   </head>
 
-  <body class="modal-open">
+  <body >
     <header class="page-header">
       <nav class="nav container">
         <a href="./index.html" class="logo">
@@ -70,13 +70,13 @@
                 <a href="./price.html" class="item_link"> Услуги и цены </a>
               </li>
               <li class="item_site_nav">
-                <a href="" class="item_link"> Галерея </a>
+                <a href="./gallery.html" class="item_link"> Галерея </a>
               </li>
               <li class="item_site_nav">
                 <a href="./3Dtur.html" class="item_link"> 3D тур </a>
               </li>
               <li class="item_site_nav">
-                <a href="" class="item_link"> Продукция </a>
+                <a href="./products.html" class="item_link"> Продукция </a>
               </li>
               <li class="item_site_nav">
                 <a href="./reviews.html" class="item_link"> Отзывы </a>
@@ -450,8 +450,7 @@
 
     <!-- MODAL -->
 
-     <!-- <div class="backdrop is-hidden" data-modal> -->
-     <div class="backdrop " data-modal>
+     <div class="backdrop is-hidden" data-modal>
 
       <div class="modal">
         <button class="close-btn" data-modal-close>
@@ -498,37 +497,28 @@
             ></textarea>
             <label for="text-area" class="text-area-label">Текст отзыва</label>
           </div>
+<p class="range-slider-name">Качество</p>
+        <div class="range-slider" style='--min:0; --max:10; --step:1; --value:5; --text-value:"5";'>
+          
+          <input type="range" min="0" max="10" step="1" value="5" oninput="this.parentNode.style.setProperty('--value',this.value); this.parentNode.style.setProperty('--text-value', JSON.stringify(this.value))">
+          <output class="num_tumb"></output>
+          <div class='range-slider__progress'></div>
+        </div>
+          <p class="range-slider-name">Обслуживание</p>
 
         <div class="range-slider" style='--min:0; --max:10; --step:1; --value:5; --text-value:"5";'>
           <input type="range" min="0" max="10" step="1" value="5" oninput="this.parentNode.style.setProperty('--value',this.value); this.parentNode.style.setProperty('--text-value', JSON.stringify(this.value))">
-          <output></output>
+          <output class="num_tumb"></output>
           <div class='range-slider__progress'></div>
         </div>
+
+          <p class="range-slider-name">Атмосфера</p>
 
         <div class="range-slider" style='--min:0; --max:10; --step:1; --value:5; --text-value:"5";'>
           <input type="range" min="0" max="10" step="1" value="5" oninput="this.parentNode.style.setProperty('--value',this.value); this.parentNode.style.setProperty('--text-value', JSON.stringify(this.value))">
-          <output></output>
+          <output class="num_tumb"></output>
           <div class='range-slider__progress'></div>
         </div>
-
-        <div class="range-slider" style='--min:0; --max:10; --step:1; --value:5; --text-value:"5";'>
-          <input type="range" min="0" max="10" step="1" value="5" oninput="this.parentNode.style.setProperty('--value',this.value); this.parentNode.style.setProperty('--text-value', JSON.stringify(this.value))">
-          <output></output>
-          <div class='range-slider__progress'></div>
-        </div>
-
-      <!-- <div class="polzun">
-        <input type="range">
-      </div>
-
-       <div class="polzun">
-        <input type="range">
-      </div>
-
-       <div class="polzun">
-        <input type="range">
-      </div>
-     -->
           
         </form>
         <button type="submit" class="submit-btn">Отставить отзыв</button>

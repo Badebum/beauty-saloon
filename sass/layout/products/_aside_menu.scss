@@ -1,0 +1,106 @@
+.aside_menu {
+  color: #3b3b3b;
+  float: left;
+  margin-right: 35px;
+}
+
+.tb {
+  width: 230px;
+  margin: 0;
+  margin-bottom: 20px;
+  position: relative;
+
+  box-shadow: 0px 64px 134px rgba(0, 0, 0, 0.1);
+}
+
+.input_menu[type='checkbox'] {
+  width: 230px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.title_place {
+  font-size: 16px;
+  line-height: 140.62%;
+  text-transform: uppercase;
+
+  &:after {
+    content: '^';
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    top: -11px;
+    right: 5px;
+
+    transform: rotate(180deg);
+  }
+}
+
+.input_menu[type='checkbox']:checked ~ .title_place {
+  &:after {
+    content: '^';
+    position: absolute;
+    top: 11px;
+    right: 5px;
+
+    transform: rotate(0deg);
+  }
+}
+
+.input_menu[type='checkbox']:checked ~ .aside_list {
+  display: block;
+}
+
+.aside_list {
+  display: none;
+  padding: 5px;
+
+  & .list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & label {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  & .prod_item_name {
+    margin-left: 10px;
+
+    font-size: 14px;
+    line-height: 140.62%;
+  }
+}
+
+.input_prod {
+  appearance: none;
+  position: absolute;
+}
+
+.icon-checkbox {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  background: #f9f7f7;
+}
+
+.input_prod:checked + .icon-checkbox {
+  background-color: #f9f7f7;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../img/icon/V.svg);
+  background-origin: content-box;
+}
+
+.input_prod:checked + .icon-checkbox + .prod_item_name {
+  color: #f4ad7b;
+}
