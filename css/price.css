@@ -322,6 +322,12 @@ body {
   margin: 30px 0 30px 0;
 }
 
+@media screen and (max-width: 1169px) {
+  .list_stocks_menu {
+    display: none;
+  }
+}
+
 .item_stocks_menu {
   width: 300px;
   text-align: center;
@@ -374,26 +380,42 @@ body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: 760px;
-  padding: 30px;
+  width: 320px;
+  padding: 15px 20px;
+}
+
+@media screen and (min-width: 1170px) {
+  .email_form {
+    width: 760px;
+    padding: 30px;
+  }
 }
 
 .email_form .text {
-  font-size: 30px;
-  line-height: 125%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 143.03%;
   text-align: center;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #3b3b3b;
   margin: 0;
-  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 1170px) {
+  .email_form .text {
+    margin-bottom: 35px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 125%;
+    letter-spacing: 0.1em;
+  }
 }
 
 .email_form .email_input {
   border: 0;
   background: #fff;
-  width: 480px;
-  height: 60px;
+  width: 290px;
+  height: 55px;
   font-size: 14px;
   line-height: 158.47%;
   letter-spacing: 0.03em;
@@ -403,18 +425,33 @@ body {
   padding: 19px 25px;
 }
 
+@media screen and (min-width: 1170px) {
+  .email_form .email_input {
+    width: 480px;
+    height: 60px;
+  }
+}
+
 .email_form .email_btn {
   border: none;
-  width: 220px;
-  height: 60px;
+  width: 290px;
+  height: 55px;
   color: #fff;
-  background: #282930;
+  background: #f4ad7b;
   cursor: pointer;
   font-weight: 600;
   font-size: 12px;
   line-height: 106.53%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 1170px) {
+  .email_form .email_btn {
+    width: 220px;
+    height: 60px;
+    background: #282930;
+  }
 }
 
 .check_label {

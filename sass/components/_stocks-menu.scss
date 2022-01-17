@@ -3,6 +3,10 @@
   justify-content: center;
   padding: 0;
   margin: 30px 0 30px 0;
+
+  @media screen and (max-width: 1169px) {
+    display: none;
+  }
 }
 
 .item_stocks_menu {

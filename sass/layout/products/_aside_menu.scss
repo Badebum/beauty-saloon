@@ -2,6 +2,10 @@
   color: #3b3b3b;
   float: left;
   margin-right: 35px;
+
+  @media screen and (max-width: 1169px) {
+    display: none;
+  }
 }
 
 .tb {
