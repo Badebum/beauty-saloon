@@ -712,6 +712,7 @@ body {
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .footer {
     width: 320px;
+    padding: 31px 15px;
   }
 }
 
@@ -807,6 +808,7 @@ body {
 
 .footer_list {
   margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
