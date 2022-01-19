@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beauty salon</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/single_prod_page.min.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav class="nav container">
+        <a href="./index.html" class="logo">
+          <img src="./img/icon/logo.svg" alt="" />
+        </a>
+        <button
+          type="button"
+          class="nav_button navigation-button"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg
+            width="30px"
+            height="30px"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="icon-cross"
+              href="./img/icon/symbol-defs.svg#close"
+            ></use>
+            <use class="icon-menu" href="./img/icon/symbol-defs.svg#menu"></use>
+          </svg>
+          <!-- <img src="./img/icon/menu.svg" alt="" /> -->
+        </button>
+        <div class="back_drop_menu" data-back-drop>
+          <div class="navigation_menu main_nav" data-menu>
+            <ul class="site_nav">
+              <li class="item_site_nav logo_menu">
+                <a href="./index.html" class="logo">
+                  <img src="./img/icon/logo.svg" alt="" />
+                </a>
+                <button
+                  type="button"
+                  class="close_btn"
+                  aria-expanded="true"
+                  data-menu-close
+                >
+                  <svg
+                    width="30px"
+                    height="30px"
+                    aria-label="Переключатель мобильного меню"
+                  >
+                    <use
+                      class="close_btn_cross"
+                      href="./img/icon/symbol-defs.svg#close"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="item_site_nav">
+                <a href="./price.html" class="item_link"> Услуги и цены </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./gallery.html" class="item_link"> Галерея </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./3Dtur.html" class="item_link"> 3D тур </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./products.html" class="item_link"> Продукция </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./reviews.html" class="item_link"> Отзывы </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./articles.html" class="item_link"> Статьи </a>
+              </li>
+              <li class="item_site_nav">
+                <a href="./contacts.html" class="item_link"> Контакты </a>
+              </li>
+            </ul>
+
+            <ul class="auth_nav">
+              <li class="item_auth_nav basket">
+                <a href="" class="icon_link_bascket">
+                  <img
+                    src="./img/icon/bascket.svg"
+                    alt="инстаграмм"
+                    class="icon_img"
+                  />
+                </a>
+              </li>
+              <li class="item_auth_nav">
+                <a href="tel:+74994900413" class="foot_tel">
+                  <span class="first_text">Контакты</span>
+                  <span class="second_text">+7 (499) 490-04-13</span>
+                </a>
+              </li>
+              <li class="item_auth_nav icon">
+                <ul class="icon_list">
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Instagram.svg"
+                        alt="инстаграмм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/WhatsApp.svg"
+                        alt="вотцап"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                  <li class="icon_item">
+                    <a href="" class="icon_link">
+                      <img
+                        src="./img/icon/Telega.svg"
+                        alt="телеграм"
+                        class="icon_img"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- STOCKS MENU -->
+
+      <section class="stocks_menu container">
+        <ul class="list_stocks_menu">
+          <li class="item_stocks_menu part_1 list">
+            <p class="prop_text">10% скидка на первый заказ</p>
+            <p class="second_prop_text">промокод welcom</p>
+          </li>
+          <li class="item_stocks_menu part_2 list">
+            <p class="prop_text">Бесплатная доставка от 6000 рублей</p>
+            <p class="second_prop_text">по России, Беларуси и Казахстану</p>
+          </li>
+          <li class="item_stocks_menu part_3 list">
+            <p class="prop_text">Пригласи друга - получи скидку</p>
+            <p class="second_prop_text">Дарим 1 000 руб тебе и -20% другу</p>
+          </li>
+          <li class="item_stocks_menu part_4 list">
+            <p class="prop_text">Заказ индивидуальной</p>
+            <p class="prop_text2">косметики</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- section description product -->
+
+      <section class="container">
+        <div class="description">
+          <ul class="descr_list">
+            <li class="descr_item list">
+              <p class="descr_categor activ">описание</p>
+            </li>
+            <li class="descr_item list">
+              <p class="descr_categor">состав</p>
+            </li>
+            <li class="descr_item list">
+              <p class="descr_categor">Мнение эксперта</p>
+            </li>
+            <li class="descr_item list">
+              <p class="descr_categor">отзывы</p>
+            </li>
+          </ul>
+
+          <p class="decr_text">
+            Стойкая тональная основа All Hours Foundation от Yves Saint Laurent
+            мгновенно корректирует микрорельеф кожи, буквально «стирая»
+            расширенные поры, мелкие морщины и прочие видимые несовершенства
+            кожи, и удерживает результат до 24 часов. Кремовая текстура с
+            гибридными пигментами идеально подстраивается под оттенок кожи и
+            образует плотное покрытие, которое не ощущается на лице.
+          </p>
+          <p class="decr_text">
+            Матирующая формула тонального средства YSL All Hours Foundation без
+            масел содержит ультрадисперсные пигменты, впитывающие излишки
+            кожного сала, пота и не дающие макия
+          </p>
+          <p class="decr_text">
+            Для дополнительного ухода за кожей в формулу добавлен
+            антиоксидантный комплекс черного чая, который борется с признаками
+            тусклости и усталости, одновременно защищая кожу от загрязнения. SPF
+            20/РА+++ нейтрализует воздействие ультрафиолетовых лучей.
+          </p>
+          <p class="decr_text">
+            Кожа выглядит свежей, гладкой, ухоженной, а макияж – безупречным
+            весь день и даже ночью.
+          </p>
+        </div>
+      </section>
+
+      <!-- section prodact card -->
+
+      <section class="section_product container">
+        <h3 class="title_card">с этим товаром покупают</h3>
+        <ul class="product_list">
+          <li class="product_item prod_1">
+            <div class="product_card">
+              <img
+                src="./img/single_prod/prod_4.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                Гиалуроновый крем увлажняющий для лица, шеи и области декольте
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="product_item prod_2">
+            <div class="product_card">
+              <img
+                src="./img/single_prod/prod_1.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                Гиалуроновый крем увлажняющий для лица, шеи и области декольте
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="product_item prod_3">
+            <div class="product_card">
+              <img
+                src="./img/single_prod/prod_2.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                Гиалуроновый крем увлажняющий для лица, шеи и области декольте
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="product_item prod_4">
+            <div class="product_card">
+              <img
+                src="./img/single_prod/prod_3.jpg"
+                alt=""
+                class="product_img"
+              />
+              <h5 class="title_product">
+                Гиалуроновый крем увлажняющий для лица, шеи и области декольте
+              </h5>
+              <p class="product_price">
+                <span class="old_price">970p</span> 370p
+              </p>
+              <button type="button" class="product_btn btn">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- section email -->
+
+      <section class="section_mail">
+        <div class="email_form">
+          <p class="text">
+            Оставьте свой email, чтобы получить скидку 10% на первую покупку
+          </p>
+          <input type="email" class="email_input" placeholder="Ваш Email" />
+          <button type="submit" class="email_btn">Подписаться</button>
+
+          <div class="check_label">
+            <label class="checkbox-label">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="policy"
+                value="policity"
+              />
+
+              Нажимая кнопку "Подписаться" Вы соглашаетесь с
+              <a class="" href="">политикой конфиденциальности</a>
+            </label>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section-footer">
+      <div class="footer container">
+        <ul class="footer_list">
+          <li class="footer_list_item">
+            <div class="logo_title">
+              <a href="" class="logo">
+                <img src="./img/icon/logo.svg" alt="" class="logo_img" />
+              </a>
+              <p class="text">Двери нашей студии красоты открыты для Вас</p>
+            </div>
+          </li>
+          <li class="footer_list_item">
+            <a href="" class="foot_address">
+              <span class="first_text">г. Пушкино</span>
+              <span class="second_text">Московский проспект, д. 27</span>
+            </a>
+          </li>
+          <li class="footer_list_item">
+            <a href="" class="foot_address">
+              <span class="first_text">г. Москва</span>
+              <span class="second_text"
+                >Черноморский бульвар, д .10, корп. 1</span
+              >
+            </a>
+          </li>
+          <li class="footer_list_item">
+            <a href="tel:+74994900413" class="foot_tel">
+              <span class="first_text">Контакты</span>
+              <span class="second_text">+7 (499) 490-04-13</span>
+            </a>
+          </li>
+          <li class="footer_list_item">
+            <div class="icon">
+              <ul class="icon_list">
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Instagram.svg"
+                      alt="инстаграмм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/WhatsApp.svg"
+                      alt="вотцап"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+                <li class="icon_item">
+                  <a href="" class="icon_link">
+                    <img
+                      src="./img/icon/Telega.svg"
+                      alt="телеграм"
+                      class="icon_img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>

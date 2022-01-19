@@ -82,7 +82,8 @@
     margin-bottom: 20px;
 
     @media screen and (min-width: 768px) {
-      width: 280px;
+      // width: 280px;
+      width: 100%;
     }
   }
 
@@ -117,10 +118,10 @@
     color: #f4ad7b;
     border: 1px solid #f4ad7b;
     background-color: initial;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 
     @media screen and (min-width: 768px) {
-      width: 280px;
+      width: 100%;
     }
   }
 }
