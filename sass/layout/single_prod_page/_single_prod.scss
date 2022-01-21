@@ -40,10 +40,12 @@ body {
   font-weight: normal;
   font-size: 30px;
   line-height: 140.62%;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .about_prod {
-  padding: 30px;
+  padding: 0 30px;
 }
 
 ////////////////////////// reiting
@@ -114,6 +116,7 @@ body {
 
 .volume_box {
   display: inline-block;
+  margin-bottom: 25px;
 
   & .ml[type='radio'] {
     display: none;
@@ -144,6 +147,7 @@ body {
 .articl_prod {
   display: inline-block;
   margin: 0;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 13px;
@@ -186,6 +190,7 @@ body {
 .palette_list {
   padding: 0;
   margin: 0;
+  margin-bottom: 35px;
 
   width: 320px;
 
@@ -254,6 +259,155 @@ body {
 }
 
 ///////////////////////////////
+
+.count_prod {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+
+  & .count_text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140.62%;
+    margin-right: 20px;
+  }
+}
+
+.price {
+  position: relative;
+  &_new {
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    margin: 0;
+
+    display: inline-block;
+    width: 100px;
+
+    & span {
+      position: absolute;
+      bottom: -50%;
+      left: 0;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 140.62%;
+
+      color: #f4ad7b;
+    }
+  }
+  &_old {
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+
+    text-decoration: line-through;
+    margin: 0;
+
+    color: #c2c2c2;
+
+    display: inline-block;
+    width: 100px;
+
+    & span {
+      position: absolute;
+      bottom: -50%;
+      left: 0;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 140.62%;
+      color: #bdbdbd;
+    }
+  }
+}
+
+.count_button {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 43px;
+  // padding: 10px 20px;
+  justify-content: center;
+  border: 1px solid #eeeeee;
+  margin-right: 20px;
+
+  & .count_btn {
+    width: 50px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+
+    &.minus {
+      color: #a6a6a6;
+    }
+
+    &.plus {
+      color: #f2aaaa;
+    }
+  }
+
+  & .num {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #413239;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+////////////////////////////////
+
+.bascet_click {
+  display: flex;
+
+  & .bascket_btn {
+    position: relative;
+    width: 318px;
+    height: 60px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #282930;
+
+    margin-right: 17px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 16px;
+      left: 70px;
+      width: 20px;
+      height: 20px;
+      background-image: url(../../../img/icon/bascket.svg);
+      background-size: cover;
+    }
+  }
+
+  & .fast_buy_btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 122.19%;
+    letter-spacing: 0.1em;
+    text-transform: none;
+
+    background: none;
+    border: 1px solid #3b3b3b;
+
+    width: 250px;
+    height: 60px;
+  }
+}
+
+/////////////////////////////////
 .stroke_item {
   display: block;
 }
