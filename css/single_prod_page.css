@@ -694,7 +694,7 @@ body {
   align-items: baseline;
   flex-direction: column;
   width: 445px;
-  height: 450px;
+  height: 485px;
 }
 
 .img_card .img_text {
@@ -780,6 +780,7 @@ body {
 .brend_text_name {
   display: inline-block;
   color: #f4ad7b;
+  margin-right: 10px;
 }
 
 .volume {
@@ -865,7 +866,7 @@ body {
 .palette_list {
   padding: 0;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   width: 320px;
   display: flex;
   flex-wrap: wrap;
@@ -1145,6 +1146,33 @@ body {
 
 .descr_categor.activ {
   opacity: 1;
+}
+
+.offers_list {
+  padding: 0;
+  display: flex;
+}
+
+.offers_item {
+  width: 196px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offers_item img {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+}
+
+.offers_text {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 171.69%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .section-footer {
