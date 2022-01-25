@@ -11,13 +11,13 @@
   position: relative;
   // margin-bottom: 35px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1170px) {
     height: 70px;
   }
 
   & .nav_button {
     display: none;
-    @media screen and (min-width: 300px) and (max-width: 767px) {
+    @media screen and (min-width: 300px) and (max-width: 1169px) {
       border-radius: 50% 50%;
       background-color: #f4ad7b;
       display: block;
@@ -27,7 +27,7 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1170px) {
     .item_site_nav:not(:last-child) {
       margin-right: 25px;
     }
@@ -42,7 +42,7 @@
 
 .navigation_menu {
   display: flex;
-  // @media screen and (min-width: 300px) and (max-width: 767px) {
+  // @media screen and (min-width: 300px) and (max-width: 1169px) {
   //   display: none;
   // }
 }
@@ -52,12 +52,12 @@
   padding: 0;
   margin: 0;
 
-  @media screen and (min-width: 320px) and (max-width: 768px) {
+  @media screen and (min-width: 320px) and (max-width: 1169px) {
     flex-direction: column;
     margin-bottom: 50px;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1170px) {
     margin-right: 22px;
     align-items: center;
   }
@@ -67,14 +67,14 @@
     margin-right: 5px;
     position: relative;
 
-    @media screen and (min-width: 320px) and (max-width: 768px) {
+    @media screen and (min-width: 320px) and (max-width: 1169px) {
       &:not(:last-child) {
         margin-bottom: 25px;
       }
     }
 
     & .item_link {
-      @media screen and (min-width: 320px) and (max-width: 768px) {
+      @media screen and (min-width: 320px) and (max-width: 1169px) {
         font-weight: 500;
         font-size: 16px;
         line-height: 155.32%;
@@ -94,7 +94,7 @@
   }
 
   & .logo_menu {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1170px) {
       display: none;
     }
   }
@@ -114,7 +114,7 @@
   padding: 0;
   margin: 0;
 
-  @media screen and (min-width: 320px) and (max-width: 768px) {
+  @media screen and (min-width: 320px) and (max-width: 1169px) {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -133,19 +133,19 @@
   }
 
   & .basket {
-    @media screen and (min-width: 320px) and (max-width: 768px) {
+    @media screen and (min-width: 320px) and (max-width: 1169px) {
       display: none;
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1170px) {
     .item_auth_nav:not(:last-child) {
       margin-right: 22px;
     }
   }
 
   & .item_auth_nav {
-    @media screen and (min-width: 320px) and (max-width: 768px) {
+    @media screen and (min-width: 320px) and (max-width: 1169px) {
       & .icon_list {
         justify-content: flex-start;
       }
@@ -182,7 +182,7 @@
 
 /// МОБИЛЬНОЕ МЕНЮ
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .navigation-button {
     display: inline-block;
     padding: 0;
@@ -203,7 +203,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .back_drop_menu {
     display: none;
     &.is-open {
@@ -242,7 +242,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .navigation_button {
     display: none;
   }

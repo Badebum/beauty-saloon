@@ -14,7 +14,7 @@
     font-size: 28px;
     line-height: 40px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1170px) {
       font-size: 60px;
       line-height: 70px;
       text-align: left;
@@ -43,7 +43,7 @@
     & .prod_2,
     & .prod_3,
     & .prod_4 {
-      @media screen and (min-width: 320px) and (max-width: 767px) {
+      @media screen and (min-width: 320px) and (max-width: 1169px) {
         display: none;
         // времено, нужен слайдер
       }
@@ -53,14 +53,14 @@
   .product_item {
     list-style: none;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1170px) {
       &:not(:last-child) {
         margin-right: 20px;
       }
     }
   }
   .slayd {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1170px) {
       display: none;
     }
   }
@@ -74,14 +74,14 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1170px) {
     width: 279px;
   }
 
   & .product_img {
     margin-bottom: 20px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1170px) {
       // width: 280px;
       width: 100%;
     }
@@ -120,7 +120,7 @@
     background-color: initial;
     // margin-bottom: 30px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1170px) {
       width: 100%;
     }
   }

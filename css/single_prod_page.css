@@ -58,7 +58,7 @@ body {
   position: relative;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .nav {
     height: 70px;
   }
@@ -68,7 +68,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 300px) and (max-width: 1169px) {
   .nav .nav_button {
     border-radius: 50% 50%;
     background-color: #f4ad7b;
@@ -79,7 +79,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .nav .item_site_nav:not(:last-child) {
     margin-right: 25px;
   }
@@ -101,14 +101,14 @@ body {
   margin: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .site_nav {
     flex-direction: column;
     margin-bottom: 50px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .site_nav {
     margin-right: 22px;
     align-items: center;
@@ -121,13 +121,13 @@ body {
   position: relative;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .site_nav .item_site_nav:not(:last-child) {
     margin-bottom: 25px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .site_nav .item_site_nav .item_link {
     font-weight: 500;
     font-size: 16px;
@@ -146,7 +146,7 @@ body {
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .site_nav .logo_menu {
     display: none;
   }
@@ -165,7 +165,7 @@ body {
   margin: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .auth_nav {
     flex-direction: column;
     align-items: flex-start;
@@ -184,19 +184,19 @@ body {
   cursor: pointer;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .auth_nav .basket {
     display: none;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .auth_nav .item_auth_nav:not(:last-child) {
     margin-right: 22px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .auth_nav .item_auth_nav .icon_list {
     justify-content: flex-start;
   }
@@ -226,7 +226,7 @@ body {
   line-height: 19px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .navigation-button {
     display: inline-block;
     padding: 0;
@@ -244,7 +244,7 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .back_drop_menu {
     display: none;
   }
@@ -276,7 +276,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .navigation_button {
     display: none;
   }
@@ -465,13 +465,13 @@ body {
   color: #3b3b3b;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .menu_prod_mob {
     overflow: hidden;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .menu_categories_prod {
     display: none;
     overflow: visible auto;
@@ -498,7 +498,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .menu_btn,
   .menu_prod_mob {
     display: none;
@@ -563,7 +563,7 @@ body {
   line-height: 40px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .section_product .card_title {
     font-size: 60px;
     line-height: 70px;
@@ -591,7 +591,7 @@ body {
   display: flex;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .section_product .product_list .prod_2,
   .section_product .product_list .prod_3,
   .section_product .product_list .prod_4 {
@@ -603,13 +603,13 @@ body {
   list-style: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .section_product .product_item:not(:last-child) {
     margin-right: 20px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .section_product .slayd {
     display: none;
   }
@@ -623,7 +623,7 @@ body {
   margin-right: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .product_card {
     width: 279px;
   }
@@ -633,7 +633,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .product_card .product_img {
     width: 100%;
   }
@@ -670,7 +670,7 @@ body {
   background-color: initial;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .product_card .product_btn {
     width: 100%;
   }
@@ -1179,7 +1179,7 @@ body {
   background-color: #282930;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1169px) {
   .footer {
     width: 320px;
     padding: 31px 15px;
@@ -1209,7 +1209,7 @@ body {
   color: #5f5f5f;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .footer .logo_title .text {
     color: white;
   }
@@ -1226,7 +1226,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .footer .foot_address {
     align-items: flex-start;
     text-align: left;
@@ -1256,7 +1256,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .footer .foot_tel {
     align-items: flex-start;
     text-align: left;
@@ -1281,7 +1281,7 @@ body {
   padding: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .footer_list {
     display: flex;
     align-items: center;
@@ -1297,7 +1297,7 @@ body {
   background-color: #f4ad7b;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .footer_list .footer_list_item:not(:last-child) {
     margin-right: 50px;
   }
