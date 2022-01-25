@@ -762,8 +762,15 @@ body {
 }
 
 .services_card_list .item_list {
+  position: relative;
   list-style: none;
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .services_card_list .item_list:hover .card_btn {
+    transform: translateY(-1%);
+  }
 }
 
 .services_card_list .card_link {
@@ -791,13 +798,6 @@ body {
 .card_link:hover,
 .card_link:focus {
   background-color: #1d1d22;
-}
-
-@media screen and (min-width: 768px) {
-  .card_link:hover .card_btn,
-  .card_link:focus .card_btn {
-    transform: translateY(0%);
-  }
 }
 
 .section_product {

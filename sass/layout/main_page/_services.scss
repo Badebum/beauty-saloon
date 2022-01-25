@@ -77,8 +77,15 @@
   }
 
   & .item_list {
+    position: relative;
     list-style: none;
     overflow: hidden;
+
+    &:hover .card_btn {
+      @media screen and (min-width: 768px) {
+        transform: translateY(-1%);
+      }
+    }
   }
 
   & .card_link {
@@ -101,17 +108,9 @@
       font-size: x-small;
     }
   }
-
- }
+}
 
 .card_link:hover,
 .card_link:focus {
   background-color: #1d1d22;
-}
-
-.card_link:hover .card_btn,
-.card_link:focus .card_btn {
-  @media screen and (min-width: 768px) {
-      transform: translateY(0%);
- }
 }
