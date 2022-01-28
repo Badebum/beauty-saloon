@@ -571,24 +571,15 @@ body {
   }
 }
 
-.section_product .slayd {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.section_product .slayd .slayd_btn {
-  color: #f4ad7b;
-  border: none;
-  background-color: initial;
-  margin-bottom: 30px;
-  cursor: pointer;
-}
-
 .section_product .product_list {
   padding: 0;
   display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1169px) {
+  .section_product .product_list {
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 1169px) {

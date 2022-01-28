@@ -81,6 +81,10 @@
     list-style: none;
     overflow: hidden;
 
+     @media screen and (max-width: 1169px) {
+        padding: 10px;
+      }
+
     &:hover .card_btn {
       @media screen and (min-width: 1170px) {
         transform: translateY(-1%);
